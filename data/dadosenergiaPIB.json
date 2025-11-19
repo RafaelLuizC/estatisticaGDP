@@ -1,2624 +1,1082 @@
 [
   {
     "country": "Afghanistan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 85.3
-      }
-    ],
-    "pib": {
-      "country": "Afghanistan",
-      "records": 16417,
-      "continent": "Asia"
-    }
+    "electricity_access": 85.3,
+    "pib": 16417,
+    "continent": "Asia"
   },
   {
     "country": "Albania",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Albania",
-      "records": 22978,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 22978,
+    "continent": "Europe"
   },
   {
     "country": "Algeria",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Algeria",
-      "records": 247626,
-      "continent": "Africa"
-    }
-  },
-  {
-    "country": "American Samoa",
-    "records": [],
-    "pib": {
-      "country": "American Samoa",
-      "records": null,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 247626,
+    "continent": "Africa"
   },
   {
     "country": "Andorra",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Andorra",
-      "records": 3785,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 3785,
+    "continent": "Europe"
   },
   {
     "country": "Angola",
-    "records": [
-      {
-        "year": 2023,
-        "value": 51.1
-      }
-    ],
-    "pib": {
-      "country": "Angola",
-      "records": 90552,
-      "continent": "Africa"
-    }
+    "electricity_access": 51.1,
+    "pib": 90552,
+    "continent": "Africa"
   },
   {
     "country": "Antigua and Barbuda",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Antigua and Barbuda",
-      "records": 2033,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 2033,
+    "continent": "North America"
   },
   {
     "country": "Argentina",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Argentina",
-      "records": 646075,
-      "continent": "South America"
-    }
+    "electricity_access": 100.0,
+    "pib": 646075,
+    "continent": "South America"
   },
   {
     "country": "Armenia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Armenia",
-      "records": 24219,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 24219,
+    "continent": "Asia"
   },
   {
     "country": "Aruba",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Aruba",
-      "records": 3649,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 3649,
+    "continent": "North America"
   },
   {
     "country": "Australia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Australia",
-      "records": 1775628,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 1775628,
+    "continent": "Oceania"
   },
   {
     "country": "Austria",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Austria",
-      "records": 511685,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 511685,
+    "continent": "Europe"
   },
   {
     "country": "Azerbaijan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Azerbaijan",
-      "records": 72356,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 72356,
+    "continent": "Asia"
   },
   {
     "country": "Bahrain",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Bahrain",
-      "records": 44662,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 44662,
+    "continent": "Asia"
   },
   {
     "country": "Bangladesh",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.5
-      }
-    ],
-    "pib": {
-      "country": "Bangladesh",
-      "records": 422431,
-      "continent": "Asia"
-    }
+    "electricity_access": 99.5,
+    "pib": 422431,
+    "continent": "Asia"
   },
   {
     "country": "Barbados",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Barbados",
-      "records": 6721,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 6721,
+    "continent": "North America"
   },
   {
     "country": "Belarus",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Belarus",
-      "records": 71857,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 71857,
+    "continent": "Europe"
   },
   {
     "country": "Belgium",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Belgium",
-      "records": 644783,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 644783,
+    "continent": "Europe"
   },
   {
     "country": "Belize",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.6
-      }
-    ],
-    "pib": {
-      "country": "Belize",
-      "records": 3079,
-      "continent": "North America"
-    }
+    "electricity_access": 99.6,
+    "pib": 3079,
+    "continent": "North America"
   },
   {
     "country": "Benin",
-    "records": [
-      {
-        "year": 2023,
-        "value": 57.0
-      }
-    ],
-    "pib": {
-      "country": "Benin",
-      "records": 19673,
-      "continent": "Africa"
-    }
+    "electricity_access": 57.0,
+    "pib": 19673,
+    "continent": "Africa"
   },
   {
     "country": "Bermuda",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Bermuda",
-      "records": 8142,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 8142,
+    "continent": "North America"
   },
   {
     "country": "Bhutan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Bhutan",
-      "records": 3019,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 3019,
+    "continent": "Asia"
   },
   {
     "country": "Bolivia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.8
-      }
-    ],
-    "pib": {
-      "country": "Bolivia",
-      "records": 45135,
-      "continent": "South America"
-    }
+    "electricity_access": 99.8,
+    "pib": 45135,
+    "continent": "South America"
   },
   {
     "country": "Bosnia and Herzegovina",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Bosnia and Herzegovina",
-      "records": 27515,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 27515,
+    "continent": "Europe"
   },
   {
     "country": "Botswana",
-    "records": [
-      {
-        "year": 2023,
-        "value": 76.0
-      }
-    ],
-    "pib": {
-      "country": "Botswana",
-      "records": 19396,
-      "continent": "Africa"
-    }
+    "electricity_access": 76.0,
+    "pib": 19396,
+    "continent": "Africa"
   },
   {
     "country": "Brazil",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.8
-      }
-    ],
-    "pib": {
-      "country": "Brazil",
-      "records": 2191132,
-      "continent": "South America"
-    }
+    "electricity_access": 99.8,
+    "pib": 2191132,
+    "continent": "South America"
   },
   {
     "country": "British Virgin Islands",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "British Virgin Islands",
-      "records": 1506,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 1506,
+    "continent": "North America"
   },
   {
     "country": "Bulgaria",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Bulgaria",
-      "records": 102397,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 102397,
+    "continent": "Europe"
   },
   {
     "country": "Burkina Faso",
-    "records": [
-      {
-        "year": 2023,
-        "value": 21.7
-      }
-    ],
-    "pib": {
-      "country": "Burkina Faso",
-      "records": 20325,
-      "continent": "Africa"
-    }
+    "electricity_access": 21.7,
+    "pib": 20325,
+    "continent": "Africa"
   },
   {
     "country": "Burundi",
-    "records": [
-      {
-        "year": 2023,
-        "value": 11.6
-      }
-    ],
-    "pib": {
-      "country": "Burundi",
-      "records": 3960,
-      "continent": "Africa"
-    }
+    "electricity_access": 11.6,
+    "pib": 3960,
+    "continent": "Africa"
   },
   {
     "country": "Cambodia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 95.0
-      }
-    ],
-    "pib": {
-      "country": "Cambodia",
-      "records": 42824,
-      "continent": "Asia"
-    }
+    "electricity_access": 95.0,
+    "pib": 42824,
+    "continent": "Asia"
   },
   {
     "country": "Cameroon",
-    "records": [
-      {
-        "year": 2023,
-        "value": 72.0
-      }
-    ],
-    "pib": {
-      "country": "Cameroon",
-      "records": 49279,
-      "continent": "Africa"
-    }
+    "electricity_access": 72.0,
+    "pib": 49279,
+    "continent": "Africa"
   },
   {
     "country": "Canada",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Canada",
-      "records": 2142471,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 2142471,
+    "continent": "North America"
   },
   {
     "country": "Cayman Islands",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Cayman Islands",
-      "records": 7127,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 7127,
+    "continent": "North America"
   },
   {
     "country": "Central African Republic",
-    "records": [
-      {
-        "year": 2023,
-        "value": 17.6
-      }
-    ],
-    "pib": {
-      "country": "Central African Republic",
-      "records": 2555,
-      "continent": "Africa"
-    }
+    "electricity_access": 17.6,
+    "pib": 2555,
+    "continent": "Africa"
   },
   {
     "country": "Chad",
-    "records": [
-      {
-        "year": 2023,
-        "value": 12.0
-      }
-    ],
-    "pib": {
-      "country": "Chad",
-      "records": 17643,
-      "continent": "Africa"
-    }
-  },
-  {
-    "country": "Channel Islands",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Channel Islands",
-      "records": null,
-      "continent": "Europe"
-    }
+    "electricity_access": 12.0,
+    "pib": 17643,
+    "continent": "Africa"
   },
   {
     "country": "Chile",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Chile",
-      "records": 335533,
-      "continent": "South America"
-    }
+    "electricity_access": 100.0,
+    "pib": 335533,
+    "continent": "South America"
   },
   {
     "country": "China",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "China",
-      "records": 17794782,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 17794782,
+    "continent": "Asia"
   },
   {
     "country": "Colombia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.7
-      }
-    ],
-    "pib": {
-      "country": "Colombia",
-      "records": 363540,
-      "continent": "South America"
-    }
+    "electricity_access": 98.7,
+    "pib": 363540,
+    "continent": "South America"
   },
   {
     "country": "Comoros",
-    "records": [
-      {
-        "year": 2023,
-        "value": 89.8
-      }
-    ],
-    "pib": {
-      "country": "Comoros",
-      "records": 1448,
-      "continent": "Africa"
-    }
+    "electricity_access": 89.8,
+    "pib": 1448,
+    "continent": "Africa"
   },
   {
     "country": "Costa Rica",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Costa Rica",
-      "records": 86498,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 86498,
+    "continent": "North America"
   },
   {
     "country": "Croatia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Croatia",
-      "records": 84391,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 84391,
+    "continent": "Europe"
   },
   {
     "country": "Cuba",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Cuba",
-      "records": 201986,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 201986,
+    "continent": "North America"
   },
   {
     "country": "Curacao",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Curaçao",
-      "records": 3281,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 3281,
+    "continent": "North America"
   },
   {
     "country": "Cyprus",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Cyprus",
-      "records": 33887,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 33887,
+    "continent": "Europe"
   },
   {
     "country": "Denmark",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Denmark",
-      "records": 407092,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 407092,
+    "continent": "Europe"
   },
   {
     "country": "Djibouti",
-    "records": [
-      {
-        "year": 2023,
-        "value": 65.2
-      }
-    ],
-    "pib": {
-      "country": "Djibouti",
-      "records": 4000,
-      "continent": "Africa"
-    }
+    "electricity_access": 65.2,
+    "pib": 4000,
+    "continent": "Africa"
   },
   {
     "country": "Dominica",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Dominica",
-      "records": 651,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 651,
+    "continent": "North America"
   },
   {
     "country": "Dominican Republic",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.6
-      }
-    ],
-    "pib": {
-      "country": "Dominican Republic",
-      "records": 121444,
-      "continent": "North America"
-    }
+    "electricity_access": 99.6,
+    "pib": 121444,
+    "continent": "North America"
   },
   {
     "country": "Ecuador",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.7
-      }
-    ],
-    "pib": {
-      "country": "Ecuador",
-      "records": 118845,
-      "continent": "South America"
-    }
+    "electricity_access": 98.7,
+    "pib": 118845,
+    "continent": "South America"
   },
   {
     "country": "El Salvador",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.3
-      }
-    ],
-    "pib": {
-      "country": "El Salvador",
-      "records": 34016,
-      "continent": "North America"
-    }
+    "electricity_access": 98.3,
+    "pib": 34016,
+    "continent": "North America"
   },
   {
     "country": "Equatorial Guinea",
-    "records": [
-      {
-        "year": 2023,
-        "value": 66.9
-      }
-    ],
-    "pib": {
-      "country": "Equatorial Guinea",
-      "records": 12117,
-      "continent": "Africa"
-    }
+    "electricity_access": 66.9,
+    "pib": 12117,
+    "continent": "Africa"
   },
   {
     "country": "Eritrea",
-    "records": [
-      {
-        "year": 2023,
-        "value": 54.4
-      }
-    ],
-    "pib": {
-      "country": "Eritrea",
-      "records": 2275,
-      "continent": "Africa"
-    }
+    "electricity_access": 54.4,
+    "pib": 2275,
+    "continent": "Africa"
   },
   {
     "country": "Estonia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Estonia",
-      "records": 41291,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 41291,
+    "continent": "Europe"
   },
   {
     "country": "Eswatini",
-    "records": [
-      {
-        "year": 2023,
-        "value": 86.4
-      }
-    ],
-    "pib": {
-      "country": "Eswatini",
-      "records": 4574,
-      "continent": "Africa"
-    }
+    "electricity_access": 86.4,
+    "pib": 4574,
+    "continent": "Africa"
   },
   {
     "country": "Ethiopia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 55.4
-      }
-    ],
-    "pib": {
-      "country": "Ethiopia",
-      "records": 159746,
-      "continent": "Africa"
-    }
-  },
-  {
-    "country": "Faroe Islands",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Faroe Islands",
-      "records": null,
-      "continent": "Europe"
-    }
+    "electricity_access": 55.4,
+    "pib": 159746,
+    "continent": "Africa"
   },
   {
     "country": "Fiji",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.3
-      }
-    ],
-    "pib": {
-      "country": "Fiji",
-      "records": 5442,
-      "continent": "Oceania"
-    }
+    "electricity_access": 99.3,
+    "pib": 5442,
+    "continent": "Oceania"
   },
   {
     "country": "Finland",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Finland",
-      "records": 295532,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 295532,
+    "continent": "Europe"
   },
   {
     "country": "France",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "France",
-      "records": 3051832,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 3051832,
+    "continent": "Europe"
   },
   {
     "country": "French Polynesia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "French Polynesia",
-      "records": 6398,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 6398,
+    "continent": "Oceania"
   },
   {
     "country": "Gabon",
-    "records": [
-      {
-        "year": 2023,
-        "value": 94.1
-      }
-    ],
-    "pib": {
-      "country": "Gabon",
-      "records": 20056,
-      "continent": "Africa"
-    }
+    "electricity_access": 94.1,
+    "pib": 20056,
+    "continent": "Africa"
   },
   {
     "country": "Georgia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Georgia",
-      "records": 30536,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 30536,
+    "continent": "Europe"
   },
   {
     "country": "Germany",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Germany",
-      "records": 4525704,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 4525704,
+    "continent": "Europe"
   },
   {
     "country": "Ghana",
-    "records": [
-      {
-        "year": 2023,
-        "value": 89.5
-      }
-    ],
-    "pib": {
-      "country": "Ghana",
-      "records": 76370,
-      "continent": "Africa"
-    }
+    "electricity_access": 89.5,
+    "pib": 76370,
+    "continent": "Africa"
   },
   {
     "country": "Greece",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Greece",
-      "records": 243498,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 243498,
+    "continent": "Europe"
   },
   {
     "country": "Greenland",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Greenland",
-      "records": 3041,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 3041,
+    "continent": "North America"
   },
   {
     "country": "Grenada",
-    "records": [
-      {
-        "year": 2023,
-        "value": 94.4
-      }
-    ],
-    "pib": {
-      "country": "Grenada",
-      "records": 1317,
-      "continent": "North America"
-    }
-  },
-  {
-    "country": "Guam",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Guam",
-      "records": null,
-      "continent": "Oceania"
-    }
+    "electricity_access": 94.4,
+    "pib": 1317,
+    "continent": "North America"
   },
   {
     "country": "Guatemala",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Guatemala",
-      "records": 104451,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 104451,
+    "continent": "North America"
   },
   {
     "country": "Guinea",
-    "records": [
-      {
-        "year": 2023,
-        "value": 51.1
-      }
-    ],
-    "pib": {
-      "country": "Guinea",
-      "records": 23006,
-      "continent": "Africa"
-    }
+    "electricity_access": 51.1,
+    "pib": 23006,
+    "continent": "Africa"
   },
   {
     "country": "Guinea-Bissau",
-    "records": [
-      {
-        "year": 2023,
-        "value": 40.5
-      }
-    ],
-    "pib": {
-      "country": "Guinea-Bissau",
-      "records": 1841,
-      "continent": "Africa"
-    }
+    "electricity_access": 40.5,
+    "pib": 1841,
+    "continent": "Africa"
   },
   {
     "country": "Guyana",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.9
-      }
-    ],
-    "pib": {
-      "country": "Guyana",
-      "records": 16683,
-      "continent": "South America"
-    }
+    "electricity_access": 98.9,
+    "pib": 16683,
+    "continent": "South America"
   },
   {
     "country": "Haiti",
-    "records": [
-      {
-        "year": 2023,
-        "value": 51.3
-      }
-    ],
-    "pib": {
-      "country": "Haiti",
-      "records": 19841,
-      "continent": "North America"
-    }
+    "electricity_access": 51.3,
+    "pib": 19841,
+    "continent": "North America"
   },
   {
     "country": "Honduras",
-    "records": [
-      {
-        "year": 2023,
-        "value": 95.6
-      }
-    ],
-    "pib": {
-      "country": "Honduras",
-      "records": 34401,
-      "continent": "North America"
-    }
+    "electricity_access": 95.6,
+    "pib": 34401,
+    "continent": "North America"
   },
   {
     "country": "Hungary",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Hungary",
-      "records": 212657,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 212657,
+    "continent": "Europe"
   },
   {
     "country": "Iceland",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Iceland",
-      "records": 31325,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 31325,
+    "continent": "Europe"
   },
   {
     "country": "India",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.5
-      }
-    ],
-    "pib": {
-      "country": "India",
-      "records": 3575778,
-      "continent": "Asia"
-    }
+    "electricity_access": 99.5,
+    "pib": 3575778,
+    "continent": "Asia"
   },
   {
     "country": "Indonesia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.4
-      }
-    ],
-    "pib": {
-      "country": "Indonesia",
-      "records": 1371171,
-      "continent": "Asia"
-    }
+    "electricity_access": 99.4,
+    "pib": 1371171,
+    "continent": "Asia"
   },
   {
     "country": "Iraq",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Iraq",
-      "records": 232107,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 232107,
+    "continent": "Asia"
   },
   {
     "country": "Ireland",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Ireland",
-      "records": 551395,
-      "continent": "Europe"
-    }
-  },
-  {
-    "country": "Isle of Man",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Isle of Man",
-      "records": null,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 551395,
+    "continent": "Europe"
   },
   {
     "country": "Israel",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Israel",
-      "records": 513611,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 513611,
+    "continent": "Asia"
   },
   {
     "country": "Italy",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Italy",
-      "records": 2300941,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 2300941,
+    "continent": "Europe"
   },
   {
     "country": "Jamaica",
-    "records": [
-      {
-        "year": 2023,
-        "value": 97.7
-      }
-    ],
-    "pib": {
-      "country": "Jamaica",
-      "records": 19423,
-      "continent": "North America"
-    }
+    "electricity_access": 97.7,
+    "pib": 19423,
+    "continent": "North America"
   },
   {
     "country": "Japan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Japan",
-      "records": 4204495,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 4204495,
+    "continent": "Asia"
   },
   {
     "country": "Jordan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Jordan",
-      "records": 50814,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 50814,
+    "continent": "Asia"
   },
   {
     "country": "Kazakhstan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Kazakhstan",
-      "records": 264293,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 264293,
+    "continent": "Asia"
   },
   {
     "country": "Kenya",
-    "records": [
-      {
-        "year": 2023,
-        "value": 76.2
-      }
-    ],
-    "pib": {
-      "country": "Kenya",
-      "records": 108039,
-      "continent": "Africa"
-    }
+    "electricity_access": 76.2,
+    "pib": 108039,
+    "continent": "Africa"
   },
   {
     "country": "Kiribati",
-    "records": [
-      {
-        "year": 2023,
-        "value": 95.9
-      }
-    ],
-    "pib": {
-      "country": "Kiribati",
-      "records": 289,
-      "continent": "Oceania"
-    }
-  },
-  {
-    "country": "Kosovo",
-    "records": [],
-    "pib": {
-      "country": "Kosovo",
-      "records": 10467,
-      "continent": "Europe"
-    }
+    "electricity_access": 95.9,
+    "pib": 289,
+    "continent": "Oceania"
   },
   {
     "country": "Kuwait",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Kuwait",
-      "records": 163705,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 163705,
+    "continent": "Asia"
   },
   {
     "country": "Latvia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Latvia",
-      "records": 42248,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 42248,
+    "continent": "Europe"
   },
   {
     "country": "Lebanon",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Lebanon",
-      "records": 27464,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 27464,
+    "continent": "Asia"
   },
   {
     "country": "Lesotho",
-    "records": [
-      {
-        "year": 2023,
-        "value": 57.3
-      }
-    ],
-    "pib": {
-      "country": "Lesotho",
-      "records": 2118,
-      "continent": "Africa"
-    }
+    "electricity_access": 57.3,
+    "pib": 2118,
+    "continent": "Africa"
   },
   {
     "country": "Liberia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 32.5
-      }
-    ],
-    "pib": {
-      "country": "Liberia",
-      "records": 5039,
-      "continent": "Africa"
-    }
+    "electricity_access": 32.5,
+    "pib": 5039,
+    "continent": "Africa"
   },
   {
     "country": "Libya",
-    "records": [
-      {
-        "year": 2023,
-        "value": 73.2
-      }
-    ],
-    "pib": {
-      "country": "Libya",
-      "records": 44030,
-      "continent": "Africa"
-    }
+    "electricity_access": 73.2,
+    "pib": 44030,
+    "continent": "Africa"
   },
   {
     "country": "Liechtenstein",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Liechtenstein",
-      "records": 7965,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 7965,
+    "continent": "Europe"
   },
   {
     "country": "Lithuania",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Lithuania",
-      "records": 79790,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 79790,
+    "continent": "Europe"
   },
   {
     "country": "Luxembourg",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Luxembourg",
-      "records": 85755,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 85755,
+    "continent": "Europe"
   },
   {
     "country": "Madagascar",
-    "records": [
-      {
-        "year": 2023,
-        "value": 39.4
-      }
-    ],
-    "pib": {
-      "country": "Madagascar",
-      "records": 15870,
-      "continent": "Africa"
-    }
+    "electricity_access": 39.4,
+    "pib": 15870,
+    "continent": "Africa"
   },
   {
     "country": "Malawi",
-    "records": [
-      {
-        "year": 2023,
-        "value": 15.6
-      }
-    ],
-    "pib": {
-      "country": "Malawi",
-      "records": 12627,
-      "continent": "Africa"
-    }
+    "electricity_access": 15.6,
+    "pib": 12627,
+    "continent": "Africa"
   },
   {
     "country": "Malaysia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Malaysia",
-      "records": 399649,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 399649,
+    "continent": "Asia"
   },
   {
     "country": "Maldives",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Maldives",
-      "records": 6591,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 6591,
+    "continent": "Asia"
   },
   {
     "country": "Mali",
-    "records": [
-      {
-        "year": 2023,
-        "value": 54.5
-      }
-    ],
-    "pib": {
-      "country": "Mali",
-      "records": 20662,
-      "continent": "Africa"
-    }
+    "electricity_access": 54.5,
+    "pib": 20662,
+    "continent": "Africa"
   },
   {
     "country": "Malta",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Malta",
-      "records": 22212,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 22212,
+    "continent": "Europe"
   },
   {
     "country": "Marshall Islands",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Marshall Islands",
-      "records": 270,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 270,
+    "continent": "Oceania"
   },
   {
     "country": "Mauritania",
-    "records": [
-      {
-        "year": 2023,
-        "value": 50.3
-      }
-    ],
-    "pib": {
-      "country": "Mauritania",
-      "records": 10652,
-      "continent": "Africa"
-    }
+    "electricity_access": 50.3,
+    "pib": 10652,
+    "continent": "Africa"
   },
   {
     "country": "Mauritius",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Mauritius",
-      "records": 14397,
-      "continent": "Africa"
-    }
+    "electricity_access": 100.0,
+    "pib": 14397,
+    "continent": "Africa"
   },
   {
     "country": "Mexico",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.7
-      }
-    ],
-    "pib": {
-      "country": "Mexico",
-      "records": 1793799,
-      "continent": "North America"
-    }
+    "electricity_access": 99.7,
+    "pib": 1793799,
+    "continent": "North America"
   },
   {
     "country": "Moldova",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Moldova",
-      "records": 16542,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 16542,
+    "continent": "Europe"
   },
   {
     "country": "Monaco",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Monaco",
-      "records": 9995,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 9995,
+    "continent": "Europe"
   },
   {
     "country": "Mongolia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Mongolia",
-      "records": 19872,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 19872,
+    "continent": "Asia"
   },
   {
     "country": "Montenegro",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Montenegro",
-      "records": 7530,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 7530,
+    "continent": "Europe"
   },
   {
     "country": "Morocco",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Morocco",
-      "records": 144438,
-      "continent": "Africa"
-    }
+    "electricity_access": 100.0,
+    "pib": 144438,
+    "continent": "Africa"
   },
   {
     "country": "Mozambique",
-    "records": [
-      {
-        "year": 2023,
-        "value": 36.0
-      }
-    ],
-    "pib": {
-      "country": "Mozambique",
-      "records": 20954,
-      "continent": "Africa"
-    }
+    "electricity_access": 36.0,
+    "pib": 20954,
+    "continent": "Africa"
   },
   {
     "country": "Myanmar",
-    "records": [
-      {
-        "year": 2023,
-        "value": 76.8
-      }
-    ],
-    "pib": {
-      "country": "Myanmar",
-      "records": 62084,
-      "continent": "Asia"
-    }
+    "electricity_access": 76.8,
+    "pib": 62084,
+    "continent": "Asia"
   },
   {
     "country": "Namibia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 56.7
-      }
-    ],
-    "pib": {
-      "country": "Namibia",
-      "records": 12351,
-      "continent": "Africa"
-    }
+    "electricity_access": 56.7,
+    "pib": 12351,
+    "continent": "Africa"
   },
   {
     "country": "Nauru",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Nauru",
-      "records": 176,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 176,
+    "continent": "Oceania"
   },
   {
     "country": "Nepal",
-    "records": [
-      {
-        "year": 2023,
-        "value": 94.0
-      }
-    ],
-    "pib": {
-      "country": "Nepal",
-      "records": 40484,
-      "continent": "Asia"
-    }
+    "electricity_access": 94.0,
+    "pib": 40484,
+    "continent": "Asia"
   },
   {
     "country": "Netherlands",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Netherlands",
-      "records": 1154361,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 1154361,
+    "continent": "Europe"
   },
   {
     "country": "New Caledonia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "New Caledonia",
-      "records": 10140,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 10140,
+    "continent": "Oceania"
   },
   {
     "country": "New Zealand",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "New Zealand",
-      "records": 252176,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 252176,
+    "continent": "Oceania"
   },
   {
     "country": "Nicaragua",
-    "records": [
-      {
-        "year": 2023,
-        "value": 88.3
-      }
-    ],
-    "pib": {
-      "country": "Nicaragua",
-      "records": 17829,
-      "continent": "North America"
-    }
+    "electricity_access": 88.3,
+    "pib": 17829,
+    "continent": "North America"
   },
   {
     "country": "Niger",
-    "records": [
-      {
-        "year": 2023,
-        "value": 20.1
-      }
-    ],
-    "pib": {
-      "country": "Niger",
-      "records": 16819,
-      "continent": "Africa"
-    }
+    "electricity_access": 20.1,
+    "pib": 16819,
+    "continent": "Africa"
   },
   {
     "country": "Nigeria",
-    "records": [
-      {
-        "year": 2023,
-        "value": 61.2
-      }
-    ],
-    "pib": {
-      "country": "Nigeria",
-      "records": 187760,
-      "continent": "Africa"
-    }
+    "electricity_access": 61.2,
+    "pib": 187760,
+    "continent": "Africa"
   },
   {
     "country": "North Macedonia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "North Macedonia",
-      "records": 15764,
-      "continent": "Europe"
-    }
-  },
-  {
-    "country": "Northern Mariana Islands",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Northern Mariana Islands",
-      "records": null,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 15764,
+    "continent": "Europe"
   },
   {
     "country": "Norway",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Norway",
-      "records": 485311,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 485311,
+    "continent": "Europe"
   },
   {
     "country": "Oman",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Oman",
-      "records": 105896,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 105896,
+    "continent": "Asia"
   },
   {
     "country": "Pakistan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 95.6
-      }
-    ],
-    "pib": {
-      "country": "Pakistan",
-      "records": 337900,
-      "continent": "Asia"
-    }
+    "electricity_access": 95.6,
+    "pib": 337900,
+    "continent": "Asia"
   },
   {
     "country": "Palau",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Palau",
-      "records": 282,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 282,
+    "continent": "Oceania"
   },
   {
     "country": "Panama",
-    "records": [
-      {
-        "year": 2023,
-        "value": 97.0
-      }
-    ],
-    "pib": {
-      "country": "Panama",
-      "records": 83382,
-      "continent": "North America"
-    }
+    "electricity_access": 97.0,
+    "pib": 83382,
+    "continent": "North America"
   },
   {
     "country": "Papua New Guinea",
-    "records": [
-      {
-        "year": 2023,
-        "value": 20.5
-      }
-    ],
-    "pib": {
-      "country": "Papua New Guinea",
-      "records": 31020,
-      "continent": "Oceania"
-    }
+    "electricity_access": 20.5,
+    "pib": 31020,
+    "continent": "Oceania"
   },
   {
     "country": "Paraguay",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.8
-      }
-    ],
-    "pib": {
-      "country": "Paraguay",
-      "records": 42955,
-      "continent": "South America"
-    }
+    "electricity_access": 99.8,
+    "pib": 42955,
+    "continent": "South America"
   },
   {
     "country": "Peru",
-    "records": [
-      {
-        "year": 2023,
-        "value": 96.2
-      }
-    ],
-    "pib": {
-      "country": "Peru",
-      "records": 267603,
-      "continent": "South America"
-    }
+    "electricity_access": 96.2,
+    "pib": 267603,
+    "continent": "South America"
   },
   {
     "country": "Philippines",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.0
-      }
-    ],
-    "pib": {
-      "country": "Philippines",
-      "records": 437146,
-      "continent": "Asia"
-    }
+    "electricity_access": 98.0,
+    "pib": 437146,
+    "continent": "Asia"
   },
   {
     "country": "Poland",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Poland",
-      "records": 809201,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 809201,
+    "continent": "Europe"
   },
   {
     "country": "Portugal",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Portugal",
-      "records": 289114,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 289114,
+    "continent": "Europe"
   },
   {
     "country": "Qatar",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Qatar",
-      "records": 213003,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 213003,
+    "continent": "Asia"
   },
   {
     "country": "Romania",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Romania",
-      "records": 350776,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 350776,
+    "continent": "Europe"
   },
   {
     "country": "Rwanda",
-    "records": [
-      {
-        "year": 2023,
-        "value": 63.9
-      }
-    ],
-    "pib": {
-      "country": "Rwanda",
-      "records": 14097,
-      "continent": "Africa"
-    }
+    "electricity_access": 63.9,
+    "pib": 14097,
+    "continent": "Africa"
   },
   {
     "country": "Samoa",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Samoa",
-      "records": 1032,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 1032,
+    "continent": "Oceania"
   },
   {
     "country": "San Marino",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "San Marino",
-      "records": 1987,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 1987,
+    "continent": "Europe"
   },
   {
     "country": "Sao Tome and Principe",
-    "records": [
-      {
-        "year": 2023,
-        "value": 81.3
-      }
-    ],
-    "pib": {
-      "country": "São Tomé and Príncipe",
-      "records": 684,
-      "continent": "Africa"
-    }
+    "electricity_access": 81.3,
+    "pib": 684,
+    "continent": "Africa"
   },
   {
     "country": "Saudi Arabia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Saudi Arabia",
-      "records": 1067583,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 1067583,
+    "continent": "Asia"
   },
   {
     "country": "Senegal",
-    "records": [
-      {
-        "year": 2023,
-        "value": 74.2
-      }
-    ],
-    "pib": {
-      "country": "Senegal",
-      "records": 30408,
-      "continent": "Africa"
-    }
+    "electricity_access": 74.2,
+    "pib": 30408,
+    "continent": "Africa"
   },
   {
     "country": "Serbia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Serbia",
-      "records": 75187,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 75187,
+    "continent": "Europe"
   },
   {
     "country": "Seychelles",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Seychelles",
-      "records": 2141,
-      "continent": "Africa"
-    }
+    "electricity_access": 100.0,
+    "pib": 2141,
+    "continent": "Africa"
   },
   {
     "country": "Sierra Leone",
-    "records": [
-      {
-        "year": 2023,
-        "value": 35.5
-      }
-    ],
-    "pib": {
-      "country": "Sierra Leone",
-      "records": 6412,
-      "continent": "Africa"
-    }
+    "electricity_access": 35.5,
+    "pib": 6412,
+    "continent": "Africa"
   },
   {
     "country": "Singapore",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Singapore",
-      "records": 501428,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 501428,
+    "continent": "Asia"
   },
   {
     "country": "Slovenia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Slovenia",
-      "records": 69148,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 69148,
+    "continent": "Europe"
   },
   {
     "country": "Solomon Islands",
-    "records": [
-      {
-        "year": 2023,
-        "value": 81.3
-      }
-    ],
-    "pib": {
-      "country": "Solomon Islands",
-      "records": 1633,
-      "continent": "Oceania"
-    }
+    "electricity_access": 81.3,
+    "pib": 1633,
+    "continent": "Oceania"
   },
   {
     "country": "South Africa",
-    "records": [
-      {
-        "year": 2023,
-        "value": 87.7
-      }
-    ],
-    "pib": {
-      "country": "South Africa",
-      "records": 377782,
-      "continent": "Africa"
-    }
+    "electricity_access": 87.7,
+    "pib": 377782,
+    "continent": "Africa"
   },
   {
     "country": "South Sudan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 5.4
-      }
-    ],
-    "pib": {
-      "country": "South Sudan",
-      "records": 4629,
-      "continent": "Africa"
-    }
+    "electricity_access": 5.4,
+    "pib": 4629,
+    "continent": "Africa"
   },
   {
     "country": "Spain",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Spain",
-      "records": 1620091,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 1620091,
+    "continent": "Europe"
   },
   {
     "country": "Sri Lanka",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Sri Lanka",
-      "records": 84364,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 84364,
+    "continent": "Asia"
   },
   {
     "country": "St. Kitts and Nevis",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Saint Kitts and Nevis",
-      "records": 1058,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 1058,
+    "continent": "North America"
   },
   {
     "country": "St. Vincent and the Grenadines",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Saint Vincent and the Grenadines",
-      "records": 1091,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 1091,
+    "continent": "North America"
   },
   {
     "country": "Sudan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 66.0
-      }
-    ],
-    "pib": {
-      "country": "Sudan",
-      "records": 34021,
-      "continent": "Africa"
-    }
+    "electricity_access": 66.0,
+    "pib": 34021,
+    "continent": "Africa"
   },
   {
     "country": "Suriname",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.6
-      }
-    ],
-    "pib": {
-      "country": "Suriname",
-      "records": 3759,
-      "continent": "South America"
-    }
+    "electricity_access": 99.6,
+    "pib": 3759,
+    "continent": "South America"
   },
   {
     "country": "Sweden",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Sweden",
-      "records": 584960,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 584960,
+    "continent": "Europe"
   },
   {
     "country": "Switzerland",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Switzerland",
-      "records": 894425,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 894425,
+    "continent": "Europe"
   },
   {
     "country": "Tajikistan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Tajikistan",
-      "records": 12061,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 12061,
+    "continent": "Asia"
   },
   {
     "country": "Tanzania",
-    "records": [
-      {
-        "year": 2023,
-        "value": 48.3
-      }
-    ],
-    "pib": {
-      "country": "Tanzania",
-      "records": 78353,
-      "continent": "Africa"
-    }
+    "electricity_access": 48.3,
+    "pib": 78353,
+    "continent": "Africa"
   },
   {
     "country": "Thailand",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Thailand",
-      "records": 514945,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 514945,
+    "continent": "Asia"
   },
   {
     "country": "Timor-Leste",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Timor-Leste",
-      "records": 2080,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 2080,
+    "continent": "Asia"
   },
   {
     "country": "Togo",
-    "records": [
-      {
-        "year": 2023,
-        "value": 59.2
-      }
-    ],
-    "pib": {
-      "country": "Togo",
-      "records": 9278,
-      "continent": "Africa"
-    }
+    "electricity_access": 59.2,
+    "pib": 9278,
+    "continent": "Africa"
   },
   {
     "country": "Tonga",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Tonga",
-      "records": 508,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 508,
+    "continent": "Oceania"
   },
   {
     "country": "Trinidad and Tobago",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.7
-      }
-    ],
-    "pib": {
-      "country": "Trinidad and Tobago",
-      "records": 25489,
-      "continent": "North America"
-    }
+    "electricity_access": 98.7,
+    "pib": 25489,
+    "continent": "North America"
   },
   {
     "country": "Tunisia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Tunisia",
-      "records": 48541,
-      "continent": "Africa"
-    }
+    "electricity_access": 100.0,
+    "pib": 48541,
+    "continent": "Africa"
   },
   {
     "country": "Turkmenistan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Turkmenistan",
-      "records": 59887,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 59887,
+    "continent": "Asia"
   },
   {
     "country": "Turks and Caicos Islands",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Turks and Caicos Islands",
-      "records": 1402,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 1402,
+    "continent": "North America"
   },
   {
     "country": "Tuvalu",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Tuvalu",
-      "records": 68,
-      "continent": "Oceania"
-    }
+    "electricity_access": 100.0,
+    "pib": 68,
+    "continent": "Oceania"
   },
   {
     "country": "Uganda",
-    "records": [
-      {
-        "year": 2023,
-        "value": 51.5
-      }
-    ],
-    "pib": {
-      "country": "Uganda",
-      "records": 51023,
-      "continent": "Africa"
-    }
+    "electricity_access": 51.5,
+    "pib": 51023,
+    "continent": "Africa"
   },
   {
     "country": "Ukraine",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Ukraine",
-      "records": 178757,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 178757,
+    "continent": "Europe"
   },
   {
     "country": "United Arab Emirates",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "United Arab Emirates",
-      "records": 514130,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 514130,
+    "continent": "Asia"
   },
   {
     "country": "United Kingdom",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "United Kingdom",
-      "records": 3380855,
-      "continent": "Europe"
-    }
+    "electricity_access": 100.0,
+    "pib": 3380855,
+    "continent": "Europe"
   },
   {
     "country": "United States",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "United States",
-      "records": 27720700,
-      "continent": "North America"
-    }
+    "electricity_access": 100.0,
+    "pib": 27720700,
+    "continent": "North America"
   },
   {
     "country": "Uruguay",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Uruguay",
-      "records": 77236,
-      "continent": "South America"
-    }
+    "electricity_access": 100.0,
+    "pib": 77236,
+    "continent": "South America"
   },
   {
     "country": "Uzbekistan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "Uzbekistan",
-      "records": 90889,
-      "continent": "Asia"
-    }
+    "electricity_access": 100.0,
+    "pib": 90889,
+    "continent": "Asia"
   },
   {
     "country": "Vanuatu",
-    "records": [
-      {
-        "year": 2023,
-        "value": 61.6
-      }
-    ],
-    "pib": {
-      "country": "Vanuatu",
-      "records": 1119,
-      "continent": "Oceania"
-    }
+    "electricity_access": 61.6,
+    "pib": 1119,
+    "continent": "Oceania"
   },
   {
     "country": "Viet Nam",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.8
-      }
-    ],
-    "pib": {
-      "country": "Vietnam",
-      "records": 429717,
-      "continent": "Asia"
-    }
-  },
-  {
-    "country": "Virgin Islands (U.S.)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": {
-      "country": "U.S. Virgin Islands",
-      "records": null,
-      "continent": "North America"
-    }
+    "electricity_access": 99.8,
+    "pib": 429717,
+    "continent": "Asia"
   },
   {
     "country": "World",
-    "records": [
-      {
-        "year": 2023,
-        "value": 91.6001373568565
-      }
-    ],
-    "pib": {
-      "country": "World",
-      "records": 100834796,
-      "continent": null
-    }
+    "electricity_access": 91.6001373568565,
+    "pib": 100834796,
+    "continent": null
   },
   {
     "country": "Zambia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 51.1
-      }
-    ],
-    "pib": {
-      "country": "Zambia",
-      "records": 27578,
-      "continent": "Africa"
-    }
+    "electricity_access": 51.1,
+    "pib": 27578,
+    "continent": "Africa"
   },
   {
     "country": "Zimbabwe",
-    "records": [
-      {
-        "year": 2023,
-        "value": 62.0
-      }
-    ],
-    "pib": {
-      "country": "Zimbabwe",
-      "records": 30368,
-      "continent": "Africa"
-    }
+    "electricity_access": 62.0,
+    "pib": 30368,
+    "continent": "Africa"
   }
 ]
