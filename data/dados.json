@@ -1062,12 +1062,6 @@
     "continent": "Asia"
   },
   {
-    "country": "World",
-    "electricity_access": 91.6001373568565,
-    "gdp": 100834796,
-    "continent": null
-  },
-  {
     "country": "Zambia",
     "electricity_access": 51.1,
     "gdp": 27578,

@@ -21,6 +21,7 @@ gera uma tabela com os dados do dados.csv
             border: 1px solid #ddd;
             padding: 12px;
             text-align: left;
+            cursor: pointer; /* Adiciona um cursor de ponteiro */
         }
         th {
             background-color: #4CAF50;
@@ -41,6 +42,9 @@ gera uma tabela com os dados do dados.csv
     </table>
 
     <script>
+        let currentSortColumn = null;
+        let currentSortOrder = 'asc';
+
         fetch('./dados.csv')
             .then(response => response.text())
             .then(data => {
@@ -48,15 +52,16 @@ gera uma tabela com os dados do dados.csv
                 const headers = lines[0].split(',');
                 
                 const headerRow = document.getElementById('headerRow');
-                headers.forEach(header => {
+                headers.forEach((header, index) => {
                     const th = document.createElement('th');
                     th.textContent = header;
+                    th.addEventListener('click', () => sortTable(index));
                     headerRow.appendChild(th);
                 });
                 
                 const dataBody = document.getElementById('dataBody');
-                for (let i = 1; i < lines.length; i++) {
-                    const row = lines[i].split(',');
+                const rows = lines.slice(1).map(line => line.split(','));
+                rows.forEach(row => {
                     const tr = document.createElement('tr');
                     row.forEach(cell => {
                         const td = document.createElement('td');
@@ -64,8 +69,30 @@ gera uma tabela com os dados do dados.csv
                         tr.appendChild(td);
                     });
                     dataBody.appendChild(tr);
-                }
+                });
             });
+
+        function sortTable(columnIndex) {
+            const dataBody = document.getElementById('dataBody');
+            const rows = Array.from(dataBody.rows);
+            const isAscending = currentSortColumn === columnIndex && currentSortOrder === 'asc';
+
+            rows.sort((a, b) => {
+                const aText = a.cells[columnIndex].textContent;
+                const bText = b.cells[columnIndex].textContent;
+
+                const aValue = isNaN(aText) ? aText : parseFloat(aText);
+                const bValue = isNaN(bText) ? bText : parseFloat(bText);
+
+                return isAscending ? (aValue > bValue ? -1 : 1) : (aValue < bValue ? -1 : 1);
+            });
+
+            currentSortColumn = columnIndex;
+            currentSortOrder = isAscending ? 'desc' : 'asc';
+
+            // Reorganiza as linhas na tabela
+            rows.forEach(row => dataBody.appendChild(row));
+        }
     </script>
 </body>
 </html>
