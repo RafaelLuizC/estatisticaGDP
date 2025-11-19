@@ -9,31 +9,9 @@
     ],
     "pib": {
       "country": "Afghanistan",
-      "records": 16417
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Africa Eastern and Southern",
-    "records": [
-      {
-        "year": 2023,
-        "value": 50.6683304830167
-      }
-    ],
-    "pib": null,
-    "match_score": 0.333
-  },
-  {
-    "country": "Africa Western and Central",
-    "records": [
-      {
-        "year": 2023,
-        "value": 57.0692665803595
-      }
-    ],
-    "pib": null,
-    "match_score": 0.346
+      "records": 16417,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Albania",
@@ -45,9 +23,9 @@
     ],
     "pib": {
       "country": "Albania",
-      "records": 22978
-    },
-    "match_score": 1.0
+      "records": 22978,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Algeria",
@@ -59,18 +37,18 @@
     ],
     "pib": {
       "country": "Algeria",
-      "records": 247626
-    },
-    "match_score": 1.0
+      "records": 247626,
+      "continent": "Africa"
+    }
   },
   {
     "country": "American Samoa",
     "records": [],
     "pib": {
       "country": "American Samoa",
-      "records": null
-    },
-    "match_score": 1.0
+      "records": null,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Andorra",
@@ -82,9 +60,9 @@
     ],
     "pib": {
       "country": "Andorra",
-      "records": 3785
-    },
-    "match_score": 1.0
+      "records": 3785,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Angola",
@@ -96,9 +74,9 @@
     ],
     "pib": {
       "country": "Angola",
-      "records": 90552
-    },
-    "match_score": 1.0
+      "records": 90552,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Antigua and Barbuda",
@@ -110,20 +88,9 @@
     ],
     "pib": {
       "country": "Antigua and Barbuda",
-      "records": 2033
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Arab World",
-    "records": [
-      {
-        "year": 2023,
-        "value": 91.6454299444509
-      }
-    ],
-    "pib": null,
-    "match_score": 0.5
+      "records": 2033,
+      "continent": "North America"
+    }
   },
   {
     "country": "Argentina",
@@ -135,9 +102,9 @@
     ],
     "pib": {
       "country": "Argentina",
-      "records": 646075
-    },
-    "match_score": 1.0
+      "records": 646075,
+      "continent": "South America"
+    }
   },
   {
     "country": "Armenia",
@@ -149,9 +116,9 @@
     ],
     "pib": {
       "country": "Armenia",
-      "records": 24219
-    },
-    "match_score": 1.0
+      "records": 24219,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Aruba",
@@ -163,9 +130,9 @@
     ],
     "pib": {
       "country": "Aruba",
-      "records": 3649
-    },
-    "match_score": 1.0
+      "records": 3649,
+      "continent": "North America"
+    }
   },
   {
     "country": "Australia",
@@ -177,9 +144,9 @@
     ],
     "pib": {
       "country": "Australia",
-      "records": 1775628
-    },
-    "match_score": 1.0
+      "records": 1775628,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Austria",
@@ -191,9 +158,9 @@
     ],
     "pib": {
       "country": "Austria",
-      "records": 511685
-    },
-    "match_score": 1.0
+      "records": 511685,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Azerbaijan",
@@ -205,20 +172,9 @@
     ],
     "pib": {
       "country": "Azerbaijan",
-      "records": 72356
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Bahamas, The",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.636
+      "records": 72356,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Bahrain",
@@ -230,9 +186,9 @@
     ],
     "pib": {
       "country": "Bahrain",
-      "records": 44662
-    },
-    "match_score": 1.0
+      "records": 44662,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Bangladesh",
@@ -244,9 +200,9 @@
     ],
     "pib": {
       "country": "Bangladesh",
-      "records": 422431
-    },
-    "match_score": 1.0
+      "records": 422431,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Barbados",
@@ -258,9 +214,9 @@
     ],
     "pib": {
       "country": "Barbados",
-      "records": 6721
-    },
-    "match_score": 1.0
+      "records": 6721,
+      "continent": "North America"
+    }
   },
   {
     "country": "Belarus",
@@ -272,9 +228,9 @@
     ],
     "pib": {
       "country": "Belarus",
-      "records": 71857
-    },
-    "match_score": 1.0
+      "records": 71857,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Belgium",
@@ -286,9 +242,9 @@
     ],
     "pib": {
       "country": "Belgium",
-      "records": 644783
-    },
-    "match_score": 1.0
+      "records": 644783,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Belize",
@@ -300,9 +256,9 @@
     ],
     "pib": {
       "country": "Belize",
-      "records": 3079
-    },
-    "match_score": 1.0
+      "records": 3079,
+      "continent": "North America"
+    }
   },
   {
     "country": "Benin",
@@ -314,9 +270,9 @@
     ],
     "pib": {
       "country": "Benin",
-      "records": 19673
-    },
-    "match_score": 1.0
+      "records": 19673,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Bermuda",
@@ -328,9 +284,9 @@
     ],
     "pib": {
       "country": "Bermuda",
-      "records": 8142
-    },
-    "match_score": 1.0
+      "records": 8142,
+      "continent": "North America"
+    }
   },
   {
     "country": "Bhutan",
@@ -342,9 +298,9 @@
     ],
     "pib": {
       "country": "Bhutan",
-      "records": 3019
-    },
-    "match_score": 1.0
+      "records": 3019,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Bolivia",
@@ -356,9 +312,9 @@
     ],
     "pib": {
       "country": "Bolivia",
-      "records": 45135
-    },
-    "match_score": 1.0
+      "records": 45135,
+      "continent": "South America"
+    }
   },
   {
     "country": "Bosnia and Herzegovina",
@@ -370,9 +326,9 @@
     ],
     "pib": {
       "country": "Bosnia and Herzegovina",
-      "records": 27515
-    },
-    "match_score": 1.0
+      "records": 27515,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Botswana",
@@ -384,9 +340,9 @@
     ],
     "pib": {
       "country": "Botswana",
-      "records": 19396
-    },
-    "match_score": 1.0
+      "records": 19396,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Brazil",
@@ -398,9 +354,9 @@
     ],
     "pib": {
       "country": "Brazil",
-      "records": 2191132
-    },
-    "match_score": 1.0
+      "records": 2191132,
+      "continent": "South America"
+    }
   },
   {
     "country": "British Virgin Islands",
@@ -412,20 +368,9 @@
     ],
     "pib": {
       "country": "British Virgin Islands",
-      "records": 1506
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Brunei Darussalam",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.353
+      "records": 1506,
+      "continent": "North America"
+    }
   },
   {
     "country": "Bulgaria",
@@ -437,9 +382,9 @@
     ],
     "pib": {
       "country": "Bulgaria",
-      "records": 102397
-    },
-    "match_score": 1.0
+      "records": 102397,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Burkina Faso",
@@ -451,9 +396,9 @@
     ],
     "pib": {
       "country": "Burkina Faso",
-      "records": 20325
-    },
-    "match_score": 1.0
+      "records": 20325,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Burundi",
@@ -465,20 +410,9 @@
     ],
     "pib": {
       "country": "Burundi",
-      "records": 3960
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Cabo Verde",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.6
-      }
-    ],
-    "pib": null,
-    "match_score": 0.8
+      "records": 3960,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Cambodia",
@@ -490,9 +424,9 @@
     ],
     "pib": {
       "country": "Cambodia",
-      "records": 42824
-    },
-    "match_score": 1.0
+      "records": 42824,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Cameroon",
@@ -504,9 +438,9 @@
     ],
     "pib": {
       "country": "Cameroon",
-      "records": 49279
-    },
-    "match_score": 1.0
+      "records": 49279,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Canada",
@@ -518,20 +452,9 @@
     ],
     "pib": {
       "country": "Canada",
-      "records": 2142471
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Caribbean small states",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.168477538461
-      }
-    ],
-    "pib": null,
-    "match_score": 0.409
+      "records": 2142471,
+      "continent": "North America"
+    }
   },
   {
     "country": "Cayman Islands",
@@ -543,9 +466,9 @@
     ],
     "pib": {
       "country": "Cayman Islands",
-      "records": 7127
-    },
-    "match_score": 1.0
+      "records": 7127,
+      "continent": "North America"
+    }
   },
   {
     "country": "Central African Republic",
@@ -557,20 +480,9 @@
     ],
     "pib": {
       "country": "Central African Republic",
-      "records": 2555
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Central Europe and the Baltics",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.533
+      "records": 2555,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Chad",
@@ -582,9 +494,9 @@
     ],
     "pib": {
       "country": "Chad",
-      "records": 17643
-    },
-    "match_score": 1.0
+      "records": 17643,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Channel Islands",
@@ -596,9 +508,9 @@
     ],
     "pib": {
       "country": "Channel Islands",
-      "records": null
-    },
-    "match_score": 1.0
+      "records": null,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Chile",
@@ -610,9 +522,9 @@
     ],
     "pib": {
       "country": "Chile",
-      "records": 335533
-    },
-    "match_score": 1.0
+      "records": 335533,
+      "continent": "South America"
+    }
   },
   {
     "country": "China",
@@ -624,9 +536,9 @@
     ],
     "pib": {
       "country": "China",
-      "records": 17794782
-    },
-    "match_score": 1.0
+      "records": 17794782,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Colombia",
@@ -638,9 +550,9 @@
     ],
     "pib": {
       "country": "Colombia",
-      "records": 363540
-    },
-    "match_score": 1.0
+      "records": 363540,
+      "continent": "South America"
+    }
   },
   {
     "country": "Comoros",
@@ -652,31 +564,9 @@
     ],
     "pib": {
       "country": "Comoros",
-      "records": 1448
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Congo, Dem. Rep.",
-    "records": [
-      {
-        "year": 2023,
-        "value": 22.1
-      }
-    ],
-    "pib": null,
-    "match_score": 0.385
-  },
-  {
-    "country": "Congo, Rep.",
-    "records": [
-      {
-        "year": 2023,
-        "value": 51.3
-      }
-    ],
-    "pib": null,
-    "match_score": 0.556
+      "records": 1448,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Costa Rica",
@@ -688,20 +578,9 @@
     ],
     "pib": {
       "country": "Costa Rica",
-      "records": 86498
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Cote d'Ivoire",
-    "records": [
-      {
-        "year": 2023,
-        "value": 72.4
-      }
-    ],
-    "pib": null,
-    "match_score": 0.385
+      "records": 86498,
+      "continent": "North America"
+    }
   },
   {
     "country": "Croatia",
@@ -713,9 +592,9 @@
     ],
     "pib": {
       "country": "Croatia",
-      "records": 84391
-    },
-    "match_score": 1.0
+      "records": 84391,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Cuba",
@@ -727,9 +606,9 @@
     ],
     "pib": {
       "country": "Cuba",
-      "records": 201986
-    },
-    "match_score": 1.0
+      "records": 201986,
+      "continent": "North America"
+    }
   },
   {
     "country": "Curacao",
@@ -741,9 +620,9 @@
     ],
     "pib": {
       "country": "Curaçao",
-      "records": 3281
-    },
-    "match_score": 0.857
+      "records": 3281,
+      "continent": "North America"
+    }
   },
   {
     "country": "Cyprus",
@@ -755,20 +634,9 @@
     ],
     "pib": {
       "country": "Cyprus",
-      "records": 33887
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Czechia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.429
+      "records": 33887,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Denmark",
@@ -780,9 +648,9 @@
     ],
     "pib": {
       "country": "Denmark",
-      "records": 407092
-    },
-    "match_score": 1.0
+      "records": 407092,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Djibouti",
@@ -794,9 +662,9 @@
     ],
     "pib": {
       "country": "Djibouti",
-      "records": 4000
-    },
-    "match_score": 1.0
+      "records": 4000,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Dominica",
@@ -808,9 +676,9 @@
     ],
     "pib": {
       "country": "Dominica",
-      "records": 651
-    },
-    "match_score": 1.0
+      "records": 651,
+      "continent": "North America"
+    }
   },
   {
     "country": "Dominican Republic",
@@ -822,53 +690,9 @@
     ],
     "pib": {
       "country": "Dominican Republic",
-      "records": 121444
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Early-demographic dividend",
-    "records": [
-      {
-        "year": 2023,
-        "value": 95.7044381043822
-      }
-    ],
-    "pib": null,
-    "match_score": 0.269
-  },
-  {
-    "country": "East Asia & Pacific",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.4044880771224
-      }
-    ],
-    "pib": null,
-    "match_score": 0.333
-  },
-  {
-    "country": "East Asia & Pacific (IDA & IBRD countries)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.7474424069608
-      }
-    ],
-    "pib": null,
-    "match_score": 0.306
-  },
-  {
-    "country": "East Asia & Pacific (excluding high income)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.2376383007189
-      }
-    ],
-    "pib": null,
-    "match_score": 0.256
+      "records": 121444,
+      "continent": "North America"
+    }
   },
   {
     "country": "Ecuador",
@@ -880,20 +704,9 @@
     ],
     "pib": {
       "country": "Ecuador",
-      "records": 118845
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Egypt, Arab Rep.",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.4
+      "records": 118845,
+      "continent": "South America"
+    }
   },
   {
     "country": "El Salvador",
@@ -905,9 +718,9 @@
     ],
     "pib": {
       "country": "El Salvador",
-      "records": 34016
-    },
-    "match_score": 1.0
+      "records": 34016,
+      "continent": "North America"
+    }
   },
   {
     "country": "Equatorial Guinea",
@@ -919,9 +732,9 @@
     ],
     "pib": {
       "country": "Equatorial Guinea",
-      "records": 12117
-    },
-    "match_score": 1.0
+      "records": 12117,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Eritrea",
@@ -933,9 +746,9 @@
     ],
     "pib": {
       "country": "Eritrea",
-      "records": 2275
-    },
-    "match_score": 1.0
+      "records": 2275,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Estonia",
@@ -947,9 +760,9 @@
     ],
     "pib": {
       "country": "Estonia",
-      "records": 41291
-    },
-    "match_score": 1.0
+      "records": 41291,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Eswatini",
@@ -961,9 +774,9 @@
     ],
     "pib": {
       "country": "Eswatini",
-      "records": 4574
-    },
-    "match_score": 1.0
+      "records": 4574,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Ethiopia",
@@ -975,64 +788,9 @@
     ],
     "pib": {
       "country": "Ethiopia",
-      "records": 159746
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Euro area",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.556
-  },
-  {
-    "country": "Europe & Central Asia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.368
-  },
-  {
-    "country": "Europe & Central Asia (IDA & IBRD countries)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.368
-  },
-  {
-    "country": "Europe & Central Asia (excluding high income)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.317
-  },
-  {
-    "country": "European Union",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.357
+      "records": 159746,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Faroe Islands",
@@ -1044,9 +802,9 @@
     ],
     "pib": {
       "country": "Faroe Islands",
-      "records": null
-    },
-    "match_score": 1.0
+      "records": null,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Fiji",
@@ -1058,9 +816,9 @@
     ],
     "pib": {
       "country": "Fiji",
-      "records": 5442
-    },
-    "match_score": 1.0
+      "records": 5442,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Finland",
@@ -1072,20 +830,9 @@
     ],
     "pib": {
       "country": "Finland",
-      "records": 295532
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Fragile and conflict affected situations",
-    "records": [
-      {
-        "year": 2023,
-        "value": 58.950109305747
-      }
-    ],
-    "pib": null,
-    "match_score": 0.325
+      "records": 295532,
+      "continent": "Europe"
+    }
   },
   {
     "country": "France",
@@ -1097,9 +844,9 @@
     ],
     "pib": {
       "country": "France",
-      "records": 3051832
-    },
-    "match_score": 1.0
+      "records": 3051832,
+      "continent": "Europe"
+    }
   },
   {
     "country": "French Polynesia",
@@ -1111,9 +858,9 @@
     ],
     "pib": {
       "country": "French Polynesia",
-      "records": 6398
-    },
-    "match_score": 1.0
+      "records": 6398,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Gabon",
@@ -1125,20 +872,9 @@
     ],
     "pib": {
       "country": "Gabon",
-      "records": 20056
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Gambia, The",
-    "records": [
-      {
-        "year": 2023,
-        "value": 66.9
-      }
-    ],
-    "pib": null,
-    "match_score": 0.6
+      "records": 20056,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Georgia",
@@ -1150,9 +886,9 @@
     ],
     "pib": {
       "country": "Georgia",
-      "records": 30536
-    },
-    "match_score": 1.0
+      "records": 30536,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Germany",
@@ -1164,9 +900,9 @@
     ],
     "pib": {
       "country": "Germany",
-      "records": 4525704
-    },
-    "match_score": 1.0
+      "records": 4525704,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Ghana",
@@ -1178,20 +914,9 @@
     ],
     "pib": {
       "country": "Ghana",
-      "records": 76370
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Gibraltar",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.444
+      "records": 76370,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Greece",
@@ -1203,9 +928,9 @@
     ],
     "pib": {
       "country": "Greece",
-      "records": 243498
-    },
-    "match_score": 1.0
+      "records": 243498,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Greenland",
@@ -1217,9 +942,9 @@
     ],
     "pib": {
       "country": "Greenland",
-      "records": 3041
-    },
-    "match_score": 1.0
+      "records": 3041,
+      "continent": "North America"
+    }
   },
   {
     "country": "Grenada",
@@ -1231,9 +956,9 @@
     ],
     "pib": {
       "country": "Grenada",
-      "records": 1317
-    },
-    "match_score": 1.0
+      "records": 1317,
+      "continent": "North America"
+    }
   },
   {
     "country": "Guam",
@@ -1245,9 +970,9 @@
     ],
     "pib": {
       "country": "Guam",
-      "records": null
-    },
-    "match_score": 1.0
+      "records": null,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Guatemala",
@@ -1259,9 +984,9 @@
     ],
     "pib": {
       "country": "Guatemala",
-      "records": 104451
-    },
-    "match_score": 1.0
+      "records": 104451,
+      "continent": "North America"
+    }
   },
   {
     "country": "Guinea",
@@ -1273,9 +998,9 @@
     ],
     "pib": {
       "country": "Guinea",
-      "records": 23006
-    },
-    "match_score": 1.0
+      "records": 23006,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Guinea-Bissau",
@@ -1287,9 +1012,9 @@
     ],
     "pib": {
       "country": "Guinea-Bissau",
-      "records": 1841
-    },
-    "match_score": 1.0
+      "records": 1841,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Guyana",
@@ -1301,9 +1026,9 @@
     ],
     "pib": {
       "country": "Guyana",
-      "records": 16683
-    },
-    "match_score": 1.0
+      "records": 16683,
+      "continent": "South America"
+    }
   },
   {
     "country": "Haiti",
@@ -1315,31 +1040,9 @@
     ],
     "pib": {
       "country": "Haiti",
-      "records": 19841
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Heavily indebted poor countries (HIPC)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 50.5311127498598
-      }
-    ],
-    "pib": null,
-    "match_score": 0.278
-  },
-  {
-    "country": "High income",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.9884050236975
-      }
-    ],
-    "pib": null,
-    "match_score": 0.364
+      "records": 19841,
+      "continent": "North America"
+    }
   },
   {
     "country": "Honduras",
@@ -1351,20 +1054,9 @@
     ],
     "pib": {
       "country": "Honduras",
-      "records": 34401
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Hong Kong SAR, China",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.474
+      "records": 34401,
+      "continent": "North America"
+    }
   },
   {
     "country": "Hungary",
@@ -1376,64 +1068,9 @@
     ],
     "pib": {
       "country": "Hungary",
-      "records": 212657
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "IBRD only",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.088645099492
-      }
-    ],
-    "pib": null,
-    "match_score": 0.364
-  },
-  {
-    "country": "IDA & IBRD total",
-    "records": [
-      {
-        "year": 2023,
-        "value": 90.3151089144033
-      }
-    ],
-    "pib": null,
-    "match_score": 0.421
-  },
-  {
-    "country": "IDA blend",
-    "records": [
-      {
-        "year": 2023,
-        "value": 77.9201343756954
-      }
-    ],
-    "pib": null,
-    "match_score": 0.444
-  },
-  {
-    "country": "IDA only",
-    "records": [
-      {
-        "year": 2023,
-        "value": 61.9201921189084
-      }
-    ],
-    "pib": null,
-    "match_score": 0.5
-  },
-  {
-    "country": "IDA total",
-    "records": [
-      {
-        "year": 2023,
-        "value": 67.5014937828868
-      }
-    ],
-    "pib": null,
-    "match_score": 0.368
+      "records": 212657,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Iceland",
@@ -1445,9 +1082,9 @@
     ],
     "pib": {
       "country": "Iceland",
-      "records": 31325
-    },
-    "match_score": 1.0
+      "records": 31325,
+      "continent": "Europe"
+    }
   },
   {
     "country": "India",
@@ -1459,9 +1096,9 @@
     ],
     "pib": {
       "country": "India",
-      "records": 3575778
-    },
-    "match_score": 1.0
+      "records": 3575778,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Indonesia",
@@ -1473,20 +1110,9 @@
     ],
     "pib": {
       "country": "Indonesia",
-      "records": 1371171
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Iran, Islamic Rep.",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.333
+      "records": 1371171,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Iraq",
@@ -1498,9 +1124,9 @@
     ],
     "pib": {
       "country": "Iraq",
-      "records": 232107
-    },
-    "match_score": 1.0
+      "records": 232107,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Ireland",
@@ -1512,9 +1138,9 @@
     ],
     "pib": {
       "country": "Ireland",
-      "records": 551395
-    },
-    "match_score": 1.0
+      "records": 551395,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Isle of Man",
@@ -1526,9 +1152,9 @@
     ],
     "pib": {
       "country": "Isle of Man",
-      "records": null
-    },
-    "match_score": 1.0
+      "records": null,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Israel",
@@ -1540,9 +1166,9 @@
     ],
     "pib": {
       "country": "Israel",
-      "records": 513611
-    },
-    "match_score": 1.0
+      "records": 513611,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Italy",
@@ -1554,9 +1180,9 @@
     ],
     "pib": {
       "country": "Italy",
-      "records": 2300941
-    },
-    "match_score": 1.0
+      "records": 2300941,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Jamaica",
@@ -1568,9 +1194,9 @@
     ],
     "pib": {
       "country": "Jamaica",
-      "records": 19423
-    },
-    "match_score": 1.0
+      "records": 19423,
+      "continent": "North America"
+    }
   },
   {
     "country": "Japan",
@@ -1582,9 +1208,9 @@
     ],
     "pib": {
       "country": "Japan",
-      "records": 4204495
-    },
-    "match_score": 1.0
+      "records": 4204495,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Jordan",
@@ -1596,9 +1222,9 @@
     ],
     "pib": {
       "country": "Jordan",
-      "records": 50814
-    },
-    "match_score": 1.0
+      "records": 50814,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Kazakhstan",
@@ -1610,9 +1236,9 @@
     ],
     "pib": {
       "country": "Kazakhstan",
-      "records": 264293
-    },
-    "match_score": 1.0
+      "records": 264293,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Kenya",
@@ -1624,9 +1250,9 @@
     ],
     "pib": {
       "country": "Kenya",
-      "records": 108039
-    },
-    "match_score": 1.0
+      "records": 108039,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Kiribati",
@@ -1638,40 +1264,18 @@
     ],
     "pib": {
       "country": "Kiribati",
-      "records": 289
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Korea, Dem. People's Rep.",
-    "records": [
-      {
-        "year": 2023,
-        "value": 57.5
-      }
-    ],
-    "pib": null,
-    "match_score": 0.273
-  },
-  {
-    "country": "Korea, Rep.",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.455
+      "records": 289,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Kosovo",
     "records": [],
     "pib": {
       "country": "Kosovo",
-      "records": 10467
-    },
-    "match_score": 1.0
+      "records": 10467,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Kuwait",
@@ -1683,75 +1287,9 @@
     ],
     "pib": {
       "country": "Kuwait",
-      "records": 163705
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Kyrgyz Republic",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.6
-  },
-  {
-    "country": "Lao PDR",
-    "records": [
-      {
-        "year": 2023,
-        "value": 96.5
-      }
-    ],
-    "pib": null,
-    "match_score": 0.429
-  },
-  {
-    "country": "Late-demographic dividend",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.4571757576784
-      }
-    ],
-    "pib": null,
-    "match_score": 0.28
-  },
-  {
-    "country": "Latin America & Caribbean",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.4226204748397
-      }
-    ],
-    "pib": null,
-    "match_score": 0.391
-  },
-  {
-    "country": "Latin America & Caribbean (excluding high income)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.2687443423624
-      }
-    ],
-    "pib": null,
-    "match_score": 0.244
-  },
-  {
-    "country": "Latin America & the Caribbean (IDA & IBRD countries)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 98.3852491204833
-      }
-    ],
-    "pib": null,
-    "match_score": 0.304
+      "records": 163705,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Latvia",
@@ -1763,20 +1301,9 @@
     ],
     "pib": {
       "country": "Latvia",
-      "records": 42248
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Least developed countries: UN classification",
-    "records": [
-      {
-        "year": 2023,
-        "value": 58.4341452966049
-      }
-    ],
-    "pib": null,
-    "match_score": 0.256
+      "records": 42248,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Lebanon",
@@ -1788,9 +1315,9 @@
     ],
     "pib": {
       "country": "Lebanon",
-      "records": 27464
-    },
-    "match_score": 1.0
+      "records": 27464,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Lesotho",
@@ -1802,9 +1329,9 @@
     ],
     "pib": {
       "country": "Lesotho",
-      "records": 2118
-    },
-    "match_score": 1.0
+      "records": 2118,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Liberia",
@@ -1816,9 +1343,9 @@
     ],
     "pib": {
       "country": "Liberia",
-      "records": 5039
-    },
-    "match_score": 1.0
+      "records": 5039,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Libya",
@@ -1830,9 +1357,9 @@
     ],
     "pib": {
       "country": "Libya",
-      "records": 44030
-    },
-    "match_score": 1.0
+      "records": 44030,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Liechtenstein",
@@ -1844,9 +1371,9 @@
     ],
     "pib": {
       "country": "Liechtenstein",
-      "records": 7965
-    },
-    "match_score": 1.0
+      "records": 7965,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Lithuania",
@@ -1858,42 +1385,9 @@
     ],
     "pib": {
       "country": "Lithuania",
-      "records": 79790
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Low & middle income",
-    "records": [
-      {
-        "year": 2023,
-        "value": 90.4920711750527
-      }
-    ],
-    "pib": null,
-    "match_score": 0.3
-  },
-  {
-    "country": "Low income",
-    "records": [
-      {
-        "year": 2023,
-        "value": 45.2721918756793
-      }
-    ],
-    "pib": null,
-    "match_score": 0.4
-  },
-  {
-    "country": "Lower middle income",
-    "records": [
-      {
-        "year": 2023,
-        "value": 91.2680749757223
-      }
-    ],
-    "pib": null,
-    "match_score": 0.316
+      "records": 79790,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Luxembourg",
@@ -1905,20 +1399,9 @@
     ],
     "pib": {
       "country": "Luxembourg",
-      "records": 85755
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Macao SAR, China",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.412
+      "records": 85755,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Madagascar",
@@ -1930,9 +1413,9 @@
     ],
     "pib": {
       "country": "Madagascar",
-      "records": 15870
-    },
-    "match_score": 1.0
+      "records": 15870,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Malawi",
@@ -1944,9 +1427,9 @@
     ],
     "pib": {
       "country": "Malawi",
-      "records": 12627
-    },
-    "match_score": 1.0
+      "records": 12627,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Malaysia",
@@ -1958,9 +1441,9 @@
     ],
     "pib": {
       "country": "Malaysia",
-      "records": 399649
-    },
-    "match_score": 1.0
+      "records": 399649,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Maldives",
@@ -1972,9 +1455,9 @@
     ],
     "pib": {
       "country": "Maldives",
-      "records": 6591
-    },
-    "match_score": 1.0
+      "records": 6591,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Mali",
@@ -1986,9 +1469,9 @@
     ],
     "pib": {
       "country": "Mali",
-      "records": 20662
-    },
-    "match_score": 1.0
+      "records": 20662,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Malta",
@@ -2000,9 +1483,9 @@
     ],
     "pib": {
       "country": "Malta",
-      "records": 22212
-    },
-    "match_score": 1.0
+      "records": 22212,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Marshall Islands",
@@ -2014,9 +1497,9 @@
     ],
     "pib": {
       "country": "Marshall Islands",
-      "records": 270
-    },
-    "match_score": 1.0
+      "records": 270,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Mauritania",
@@ -2028,9 +1511,9 @@
     ],
     "pib": {
       "country": "Mauritania",
-      "records": 10652
-    },
-    "match_score": 1.0
+      "records": 10652,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Mauritius",
@@ -2042,9 +1525,9 @@
     ],
     "pib": {
       "country": "Mauritius",
-      "records": 14397
-    },
-    "match_score": 1.0
+      "records": 14397,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Mexico",
@@ -2056,64 +1539,9 @@
     ],
     "pib": {
       "country": "Mexico",
-      "records": 1793799
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Micronesia, Fed. Sts.",
-    "records": [
-      {
-        "year": 2023,
-        "value": 86.9
-      }
-    ],
-    "pib": null,
-    "match_score": 0.556
-  },
-  {
-    "country": "Middle East, North Africa, Afghanistan & Pakistan",
-    "records": [
-      {
-        "year": 2023,
-        "value": 96.4226367435274
-      }
-    ],
-    "pib": null,
-    "match_score": 0.311
-  },
-  {
-    "country": "Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 96.0574946837091
-      }
-    ],
-    "pib": null,
-    "match_score": 0.315
-  },
-  {
-    "country": "Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 96.0854287468734
-      }
-    ],
-    "pib": null,
-    "match_score": 0.254
-  },
-  {
-    "country": "Middle income",
-    "records": [
-      {
-        "year": 2023,
-        "value": 95.1583884632963
-      }
-    ],
-    "pib": null,
-    "match_score": 0.385
+      "records": 1793799,
+      "continent": "North America"
+    }
   },
   {
     "country": "Moldova",
@@ -2125,9 +1553,9 @@
     ],
     "pib": {
       "country": "Moldova",
-      "records": 16542
-    },
-    "match_score": 1.0
+      "records": 16542,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Monaco",
@@ -2139,9 +1567,9 @@
     ],
     "pib": {
       "country": "Monaco",
-      "records": 9995
-    },
-    "match_score": 1.0
+      "records": 9995,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Mongolia",
@@ -2153,9 +1581,9 @@
     ],
     "pib": {
       "country": "Mongolia",
-      "records": 19872
-    },
-    "match_score": 1.0
+      "records": 19872,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Montenegro",
@@ -2167,9 +1595,9 @@
     ],
     "pib": {
       "country": "Montenegro",
-      "records": 7530
-    },
-    "match_score": 1.0
+      "records": 7530,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Morocco",
@@ -2181,9 +1609,9 @@
     ],
     "pib": {
       "country": "Morocco",
-      "records": 144438
-    },
-    "match_score": 1.0
+      "records": 144438,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Mozambique",
@@ -2195,9 +1623,9 @@
     ],
     "pib": {
       "country": "Mozambique",
-      "records": 20954
-    },
-    "match_score": 1.0
+      "records": 20954,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Myanmar",
@@ -2209,9 +1637,9 @@
     ],
     "pib": {
       "country": "Myanmar",
-      "records": 62084
-    },
-    "match_score": 1.0
+      "records": 62084,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Namibia",
@@ -2223,9 +1651,9 @@
     ],
     "pib": {
       "country": "Namibia",
-      "records": 12351
-    },
-    "match_score": 1.0
+      "records": 12351,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Nauru",
@@ -2237,9 +1665,9 @@
     ],
     "pib": {
       "country": "Nauru",
-      "records": 176
-    },
-    "match_score": 1.0
+      "records": 176,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Nepal",
@@ -2251,9 +1679,9 @@
     ],
     "pib": {
       "country": "Nepal",
-      "records": 40484
-    },
-    "match_score": 1.0
+      "records": 40484,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Netherlands",
@@ -2265,9 +1693,9 @@
     ],
     "pib": {
       "country": "Netherlands",
-      "records": 1154361
-    },
-    "match_score": 1.0
+      "records": 1154361,
+      "continent": "Europe"
+    }
   },
   {
     "country": "New Caledonia",
@@ -2279,9 +1707,9 @@
     ],
     "pib": {
       "country": "New Caledonia",
-      "records": 10140
-    },
-    "match_score": 1.0
+      "records": 10140,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "New Zealand",
@@ -2293,9 +1721,9 @@
     ],
     "pib": {
       "country": "New Zealand",
-      "records": 252176
-    },
-    "match_score": 1.0
+      "records": 252176,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Nicaragua",
@@ -2307,9 +1735,9 @@
     ],
     "pib": {
       "country": "Nicaragua",
-      "records": 17829
-    },
-    "match_score": 1.0
+      "records": 17829,
+      "continent": "North America"
+    }
   },
   {
     "country": "Niger",
@@ -2321,9 +1749,9 @@
     ],
     "pib": {
       "country": "Niger",
-      "records": 16819
-    },
-    "match_score": 1.0
+      "records": 16819,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Nigeria",
@@ -2335,20 +1763,9 @@
     ],
     "pib": {
       "country": "Nigeria",
-      "records": 187760
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "North America",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.692
+      "records": 187760,
+      "continent": "Africa"
+    }
   },
   {
     "country": "North Macedonia",
@@ -2360,9 +1777,9 @@
     ],
     "pib": {
       "country": "North Macedonia",
-      "records": 15764
-    },
-    "match_score": 1.0
+      "records": 15764,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Northern Mariana Islands",
@@ -2374,9 +1791,9 @@
     ],
     "pib": {
       "country": "Northern Mariana Islands",
-      "records": null
-    },
-    "match_score": 1.0
+      "records": null,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Norway",
@@ -2388,26 +1805,9 @@
     ],
     "pib": {
       "country": "Norway",
-      "records": 485311
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Not classified",
-    "records": [],
-    "pib": null,
-    "match_score": 0.3
-  },
-  {
-    "country": "OECD members",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.9229805241215
-      }
-    ],
-    "pib": null,
-    "match_score": 0.357
+      "records": 485311,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Oman",
@@ -2419,31 +1819,9 @@
     ],
     "pib": {
       "country": "Oman",
-      "records": 105896
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Other small states",
-    "records": [
-      {
-        "year": 2023,
-        "value": 94.5040760650772
-      }
-    ],
-    "pib": null,
-    "match_score": 0.458
-  },
-  {
-    "country": "Pacific island small states",
-    "records": [
-      {
-        "year": 2023,
-        "value": 88.8705713618501
-      }
-    ],
-    "pib": null,
-    "match_score": 0.333
+      "records": 105896,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Pakistan",
@@ -2455,9 +1833,9 @@
     ],
     "pib": {
       "country": "Pakistan",
-      "records": 337900
-    },
-    "match_score": 1.0
+      "records": 337900,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Palau",
@@ -2469,9 +1847,9 @@
     ],
     "pib": {
       "country": "Palau",
-      "records": 282
-    },
-    "match_score": 1.0
+      "records": 282,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Panama",
@@ -2483,9 +1861,9 @@
     ],
     "pib": {
       "country": "Panama",
-      "records": 83382
-    },
-    "match_score": 1.0
+      "records": 83382,
+      "continent": "North America"
+    }
   },
   {
     "country": "Papua New Guinea",
@@ -2497,9 +1875,9 @@
     ],
     "pib": {
       "country": "Papua New Guinea",
-      "records": 31020
-    },
-    "match_score": 1.0
+      "records": 31020,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Paraguay",
@@ -2511,9 +1889,9 @@
     ],
     "pib": {
       "country": "Paraguay",
-      "records": 42955
-    },
-    "match_score": 1.0
+      "records": 42955,
+      "continent": "South America"
+    }
   },
   {
     "country": "Peru",
@@ -2525,9 +1903,9 @@
     ],
     "pib": {
       "country": "Peru",
-      "records": 267603
-    },
-    "match_score": 1.0
+      "records": 267603,
+      "continent": "South America"
+    }
   },
   {
     "country": "Philippines",
@@ -2539,9 +1917,9 @@
     ],
     "pib": {
       "country": "Philippines",
-      "records": 437146
-    },
-    "match_score": 1.0
+      "records": 437146,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Poland",
@@ -2553,9 +1931,9 @@
     ],
     "pib": {
       "country": "Poland",
-      "records": 809201
-    },
-    "match_score": 1.0
+      "records": 809201,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Portugal",
@@ -2567,42 +1945,9 @@
     ],
     "pib": {
       "country": "Portugal",
-      "records": 289114
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Post-demographic dividend",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.28
-  },
-  {
-    "country": "Pre-demographic dividend",
-    "records": [
-      {
-        "year": 2023,
-        "value": 52.5309883201788
-      }
-    ],
-    "pib": null,
-    "match_score": 0.25
-  },
-  {
-    "country": "Puerto Rico (US)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.786
+      "records": 289114,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Qatar",
@@ -2614,9 +1959,9 @@
     ],
     "pib": {
       "country": "Qatar",
-      "records": 213003
-    },
-    "match_score": 1.0
+      "records": 213003,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Romania",
@@ -2628,20 +1973,9 @@
     ],
     "pib": {
       "country": "Romania",
-      "records": 350776
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Russian Federation",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.389
+      "records": 350776,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Rwanda",
@@ -2653,9 +1987,9 @@
     ],
     "pib": {
       "country": "Rwanda",
-      "records": 14097
-    },
-    "match_score": 1.0
+      "records": 14097,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Samoa",
@@ -2667,9 +2001,9 @@
     ],
     "pib": {
       "country": "Samoa",
-      "records": 1032
-    },
-    "match_score": 1.0
+      "records": 1032,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "San Marino",
@@ -2681,9 +2015,9 @@
     ],
     "pib": {
       "country": "San Marino",
-      "records": 1987
-    },
-    "match_score": 1.0
+      "records": 1987,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Sao Tome and Principe",
@@ -2695,9 +2029,9 @@
     ],
     "pib": {
       "country": "São Tomé and Príncipe",
-      "records": 684
-    },
-    "match_score": 0.857
+      "records": 684,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Saudi Arabia",
@@ -2709,9 +2043,9 @@
     ],
     "pib": {
       "country": "Saudi Arabia",
-      "records": 1067583
-    },
-    "match_score": 1.0
+      "records": 1067583,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Senegal",
@@ -2723,9 +2057,9 @@
     ],
     "pib": {
       "country": "Senegal",
-      "records": 30408
-    },
-    "match_score": 1.0
+      "records": 30408,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Serbia",
@@ -2737,9 +2071,9 @@
     ],
     "pib": {
       "country": "Serbia",
-      "records": 75187
-    },
-    "match_score": 1.0
+      "records": 75187,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Seychelles",
@@ -2751,9 +2085,9 @@
     ],
     "pib": {
       "country": "Seychelles",
-      "records": 2141
-    },
-    "match_score": 1.0
+      "records": 2141,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Sierra Leone",
@@ -2765,9 +2099,9 @@
     ],
     "pib": {
       "country": "Sierra Leone",
-      "records": 6412
-    },
-    "match_score": 1.0
+      "records": 6412,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Singapore",
@@ -2779,31 +2113,9 @@
     ],
     "pib": {
       "country": "Singapore",
-      "records": 501428
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Sint Maarten (Dutch part)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.522
-  },
-  {
-    "country": "Slovak Republic",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.6
+      "records": 501428,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Slovenia",
@@ -2815,20 +2127,9 @@
     ],
     "pib": {
       "country": "Slovenia",
-      "records": 69148
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Small states",
-    "records": [
-      {
-        "year": 2023,
-        "value": 94.7999610400142
-      }
-    ],
-    "pib": null,
-    "match_score": 0.538
+      "records": 69148,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Solomon Islands",
@@ -2840,20 +2141,9 @@
     ],
     "pib": {
       "country": "Solomon Islands",
-      "records": 1633
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Somalia, Fed. Rep.",
-    "records": [
-      {
-        "year": 2023,
-        "value": 50.3
-      }
-    ],
-    "pib": null,
-    "match_score": 0.467
+      "records": 1633,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "South Africa",
@@ -2865,31 +2155,9 @@
     ],
     "pib": {
       "country": "South Africa",
-      "records": 377782
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "South Asia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.4087889697405
-      }
-    ],
-    "pib": null,
-    "match_score": 0.75
-  },
-  {
-    "country": "South Asia (IDA & IBRD)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.4087889697405
-      }
-    ],
-    "pib": null,
-    "match_score": 0.474
+      "records": 377782,
+      "continent": "Africa"
+    }
   },
   {
     "country": "South Sudan",
@@ -2901,9 +2169,9 @@
     ],
     "pib": {
       "country": "South Sudan",
-      "records": 4629
-    },
-    "match_score": 1.0
+      "records": 4629,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Spain",
@@ -2915,9 +2183,9 @@
     ],
     "pib": {
       "country": "Spain",
-      "records": 1620091
-    },
-    "match_score": 1.0
+      "records": 1620091,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Sri Lanka",
@@ -2929,9 +2197,9 @@
     ],
     "pib": {
       "country": "Sri Lanka",
-      "records": 84364
-    },
-    "match_score": 1.0
+      "records": 84364,
+      "continent": "Asia"
+    }
   },
   {
     "country": "St. Kitts and Nevis",
@@ -2943,31 +2211,9 @@
     ],
     "pib": {
       "country": "Saint Kitts and Nevis",
-      "records": 1058
-    },
-    "match_score": 0.857
-  },
-  {
-    "country": "St. Lucia",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.727
-  },
-  {
-    "country": "St. Martin (French part)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.286
+      "records": 1058,
+      "continent": "North America"
+    }
   },
   {
     "country": "St. Vincent and the Grenadines",
@@ -2979,42 +2225,9 @@
     ],
     "pib": {
       "country": "Saint Vincent and the Grenadines",
-      "records": 1091
-    },
-    "match_score": 0.906
-  },
-  {
-    "country": "Sub-Saharan Africa",
-    "records": [
-      {
-        "year": 2023,
-        "value": 53.2563309010663
-      }
-    ],
-    "pib": null,
-    "match_score": 0.5
-  },
-  {
-    "country": "Sub-Saharan Africa (IDA & IBRD countries)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 53.2563309010663
-      }
-    ],
-    "pib": null,
-    "match_score": 0.351
-  },
-  {
-    "country": "Sub-Saharan Africa (excluding high income)",
-    "records": [
-      {
-        "year": 2023,
-        "value": 53.0074817273216
-      }
-    ],
-    "pib": null,
-    "match_score": 0.3
+      "records": 1091,
+      "continent": "North America"
+    }
   },
   {
     "country": "Sudan",
@@ -3026,9 +2239,9 @@
     ],
     "pib": {
       "country": "Sudan",
-      "records": 34021
-    },
-    "match_score": 1.0
+      "records": 34021,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Suriname",
@@ -3040,9 +2253,9 @@
     ],
     "pib": {
       "country": "Suriname",
-      "records": 3759
-    },
-    "match_score": 1.0
+      "records": 3759,
+      "continent": "South America"
+    }
   },
   {
     "country": "Sweden",
@@ -3054,9 +2267,9 @@
     ],
     "pib": {
       "country": "Sweden",
-      "records": 584960
-    },
-    "match_score": 1.0
+      "records": 584960,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Switzerland",
@@ -3068,20 +2281,9 @@
     ],
     "pib": {
       "country": "Switzerland",
-      "records": 894425
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Syrian Arab Republic",
-    "records": [
-      {
-        "year": 2023,
-        "value": 88.4
-      }
-    ],
-    "pib": null,
-    "match_score": 0.6
+      "records": 894425,
+      "continent": "Europe"
+    }
   },
   {
     "country": "Tajikistan",
@@ -3093,9 +2295,9 @@
     ],
     "pib": {
       "country": "Tajikistan",
-      "records": 12061
-    },
-    "match_score": 1.0
+      "records": 12061,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Tanzania",
@@ -3107,9 +2309,9 @@
     ],
     "pib": {
       "country": "Tanzania",
-      "records": 78353
-    },
-    "match_score": 1.0
+      "records": 78353,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Thailand",
@@ -3121,9 +2323,9 @@
     ],
     "pib": {
       "country": "Thailand",
-      "records": 514945
-    },
-    "match_score": 1.0
+      "records": 514945,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Timor-Leste",
@@ -3135,9 +2337,9 @@
     ],
     "pib": {
       "country": "Timor-Leste",
-      "records": 2080
-    },
-    "match_score": 1.0
+      "records": 2080,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Togo",
@@ -3149,9 +2351,9 @@
     ],
     "pib": {
       "country": "Togo",
-      "records": 9278
-    },
-    "match_score": 1.0
+      "records": 9278,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Tonga",
@@ -3163,9 +2365,9 @@
     ],
     "pib": {
       "country": "Tonga",
-      "records": 508
-    },
-    "match_score": 1.0
+      "records": 508,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Trinidad and Tobago",
@@ -3177,9 +2379,9 @@
     ],
     "pib": {
       "country": "Trinidad and Tobago",
-      "records": 25489
-    },
-    "match_score": 1.0
+      "records": 25489,
+      "continent": "North America"
+    }
   },
   {
     "country": "Tunisia",
@@ -3191,20 +2393,9 @@
     ],
     "pib": {
       "country": "Tunisia",
-      "records": 48541
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Turkiye",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.714
+      "records": 48541,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Turkmenistan",
@@ -3216,9 +2407,9 @@
     ],
     "pib": {
       "country": "Turkmenistan",
-      "records": 59887
-    },
-    "match_score": 1.0
+      "records": 59887,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Turks and Caicos Islands",
@@ -3230,9 +2421,9 @@
     ],
     "pib": {
       "country": "Turks and Caicos Islands",
-      "records": 1402
-    },
-    "match_score": 1.0
+      "records": 1402,
+      "continent": "North America"
+    }
   },
   {
     "country": "Tuvalu",
@@ -3244,9 +2435,9 @@
     ],
     "pib": {
       "country": "Tuvalu",
-      "records": 68
-    },
-    "match_score": 1.0
+      "records": 68,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Uganda",
@@ -3258,9 +2449,9 @@
     ],
     "pib": {
       "country": "Uganda",
-      "records": 51023
-    },
-    "match_score": 1.0
+      "records": 51023,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Ukraine",
@@ -3272,9 +2463,9 @@
     ],
     "pib": {
       "country": "Ukraine",
-      "records": 178757
-    },
-    "match_score": 1.0
+      "records": 178757,
+      "continent": "Europe"
+    }
   },
   {
     "country": "United Arab Emirates",
@@ -3286,9 +2477,9 @@
     ],
     "pib": {
       "country": "United Arab Emirates",
-      "records": 514130
-    },
-    "match_score": 1.0
+      "records": 514130,
+      "continent": "Asia"
+    }
   },
   {
     "country": "United Kingdom",
@@ -3300,9 +2491,9 @@
     ],
     "pib": {
       "country": "United Kingdom",
-      "records": 3380855
-    },
-    "match_score": 1.0
+      "records": 3380855,
+      "continent": "Europe"
+    }
   },
   {
     "country": "United States",
@@ -3314,20 +2505,9 @@
     ],
     "pib": {
       "country": "United States",
-      "records": 27720700
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Upper middle income",
-    "records": [
-      {
-        "year": 2023,
-        "value": 99.4286824741078
-      }
-    ],
-    "pib": null,
-    "match_score": 0.316
+      "records": 27720700,
+      "continent": "North America"
+    }
   },
   {
     "country": "Uruguay",
@@ -3339,9 +2519,9 @@
     ],
     "pib": {
       "country": "Uruguay",
-      "records": 77236
-    },
-    "match_score": 1.0
+      "records": 77236,
+      "continent": "South America"
+    }
   },
   {
     "country": "Uzbekistan",
@@ -3353,9 +2533,9 @@
     ],
     "pib": {
       "country": "Uzbekistan",
-      "records": 90889
-    },
-    "match_score": 1.0
+      "records": 90889,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Vanuatu",
@@ -3367,20 +2547,9 @@
     ],
     "pib": {
       "country": "Vanuatu",
-      "records": 1119
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Venezuela, RB",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.75
+      "records": 1119,
+      "continent": "Oceania"
+    }
   },
   {
     "country": "Viet Nam",
@@ -3392,9 +2561,9 @@
     ],
     "pib": {
       "country": "Vietnam",
-      "records": 429717
-    },
-    "match_score": 0.875
+      "records": 429717,
+      "continent": "Asia"
+    }
   },
   {
     "country": "Virgin Islands (U.S.)",
@@ -3406,20 +2575,9 @@
     ],
     "pib": {
       "country": "U.S. Virgin Islands",
-      "records": null
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "West Bank and Gaza",
-    "records": [
-      {
-        "year": 2023,
-        "value": 100.0
-      }
-    ],
-    "pib": null,
-    "match_score": 0.333
+      "records": null,
+      "continent": "North America"
+    }
   },
   {
     "country": "World",
@@ -3431,20 +2589,9 @@
     ],
     "pib": {
       "country": "World",
-      "records": 100834796
-    },
-    "match_score": 1.0
-  },
-  {
-    "country": "Yemen, Rep.",
-    "records": [
-      {
-        "year": 2023,
-        "value": 83.6
-      }
-    ],
-    "pib": null,
-    "match_score": 0.556
+      "records": 100834796,
+      "continent": null
+    }
   },
   {
     "country": "Zambia",
@@ -3456,9 +2603,9 @@
     ],
     "pib": {
       "country": "Zambia",
-      "records": 27578
-    },
-    "match_score": 1.0
+      "records": 27578,
+      "continent": "Africa"
+    }
   },
   {
     "country": "Zimbabwe",
@@ -3470,8 +2617,8 @@
     ],
     "pib": {
       "country": "Zimbabwe",
-      "records": 30368
-    },
-    "match_score": 1.0
+      "records": 30368,
+      "continent": "Africa"
+    }
   }
 ]

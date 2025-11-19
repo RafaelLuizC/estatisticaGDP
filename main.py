@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 
 dotenv.load_dotenv()
 
-def mergeJsons(json1_path, json2_path, threshold=0.85): # Função para fazer merge de dois JSONs com os dados de países.
+def mergeJsons(json1_path, json2_path, threshold=0.7): # Função para fazer merge de dois JSONs com os dados de países.
 
     def load_json(path):
         with open(path, "r", encoding="utf-8") as f:
@@ -54,6 +54,7 @@ def mergeJsons(json1_path, json2_path, threshold=0.85): # Função para fazer me
         best = None
         best_score = -1.0
         norm_a = normalize(a_name)
+        a_name = a_name.split(",")[0]
 
         # Procura a correspondencia exata = valores 1.0 
         if norm_a in b_index:
@@ -104,11 +105,15 @@ def mergeJsons(json1_path, json2_path, threshold=0.85): # Função para fazer me
         
         if best and best_score >= threshold: # Se encontrou um país B (PIB) correspondente acima do treshold
             # Adiciona os dados do PIB, estou consumindo os valores de 2023.
-            merged_item["pib"] = {"country": best.get("country"), "records": best.get("un_2023")}
+            merged_item["pib"] = {"country": best.get("country"), "records": best.get("un_2023"), "continent":  best.get("continent")}
         else:
             # Se não encontrou, deixa o PIB como None.
             merged_item["pib"] = None
 
+        if merged_item["pib"] == None:
+            print(f"Nenhum país correspondente encontrado para '{a_name}' (melhor score: {best_score:.3f})")
+            continue
+        
         merged.append(merged_item)
 
     return merged
@@ -219,30 +224,28 @@ def iniciaJsonPaises(arquivo):
 def main():
     #Inicializa as tabelas de Dados.
 
-    arquivo = "ListaEnergia.xml"
+    arquivo = "data/ListaEnergia.xml"
     caminho = abrir_arquivo(arquivo) #Gera o caminho
 
     # Gera o JSON agrupado por país
     country_data = iniciaJsonPaises(caminho)
 
-    saida = "DadosEnergia.json"
+    saida = "data/tempJSON.json"
     salvaJson(country_data, saida)
 
     # Agora faz merge com o PIB.json (assume PIB.json está na raiz do projeto)
-    pib_path = "PIB.json"
+    pib_path = "data/PIB.json"
     if not os.path.exists(pib_path):
         print("Arquivo PIB.json não encontrado. Merge não realizado.")
         print("Rodou o codigo!")
         return
 
     merged = mergeJsons(saida, pib_path, threshold=0.85)
-    saida_merge = "dadosenergiaPIB.json"
+    saida_merge = "data/dadosenergiaPIB.json"
     salvaJson(merged, saida_merge)
 
     print("Merge gerado em:", saida_merge)
     print("Rodou o codigo!")
-
-
 
 if __name__ == "__main__":
     main()

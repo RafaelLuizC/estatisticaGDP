@@ -1,0 +1,27 @@
+:root{
+    --bg:#f8f9fa;
+    --card:#ffffff;
+    --muted:#6c757d;
+    --accent:#0d6efd;
+}
+
+body{
+    background: linear-gradient(180deg,var(--bg),#ffffff);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.card{ box-shadow: 0 6px 18px rgba(13,110,253,0.06);
+height: 400px;
+border: none; }
+
+h1{ font-size:1.25rem; }
+
+#energyChart{ max-width:100%; }
+
+.controls .form-label{ font-size:0.9rem; }
+
+#info{ margin-top:0.5rem; }
+
+@media (max-width:576px){
+    h1{ font-size:1rem; }
+}
