@@ -1,0 +1,181 @@
+country,electricity_access,gdp,continent
+Afghanistan,85.3,16417,Asia
+Albania,100.0,22978,Europe
+Algeria,100.0,247626,Africa
+Andorra,100.0,3785,Europe
+Angola,51.1,90552,Africa
+Antigua and Barbuda,100.0,2033,North America
+Argentina,100.0,646075,South America
+Armenia,100.0,24219,Asia
+Aruba,100.0,3649,North America
+Australia,100.0,1775628,Oceania
+Austria,100.0,511685,Europe
+Azerbaijan,100.0,72356,Asia
+Bahrain,100.0,44662,Asia
+Bangladesh,99.5,422431,Asia
+Barbados,100.0,6721,North America
+Belarus,100.0,71857,Europe
+Belgium,100.0,644783,Europe
+Belize,99.6,3079,North America
+Benin,57.0,19673,Africa
+Bermuda,100.0,8142,North America
+Bhutan,100.0,3019,Asia
+Bolivia,99.8,45135,South America
+Bosnia and Herzegovina,100.0,27515,Europe
+Botswana,76.0,19396,Africa
+Brazil,99.8,2191132,South America
+British Virgin Islands,100.0,1506,North America
+Bulgaria,100.0,102397,Europe
+Burkina Faso,21.7,20325,Africa
+Burundi,11.6,3960,Africa
+Cambodia,95.0,42824,Asia
+Cameroon,72.0,49279,Africa
+Canada,100.0,2142471,North America
+Cayman Islands,100.0,7127,North America
+Central African Republic,17.6,2555,Africa
+Chad,12.0,17643,Africa
+Chile,100.0,335533,South America
+China,100.0,17794782,Asia
+Colombia,98.7,363540,South America
+Comoros,89.8,1448,Africa
+Costa Rica,100.0,86498,North America
+Croatia,100.0,84391,Europe
+Cuba,100.0,201986,North America
+Curacao,100.0,3281,North America
+Cyprus,100.0,33887,Europe
+Denmark,100.0,407092,Europe
+Djibouti,65.2,4000,Africa
+Dominica,100.0,651,North America
+Dominican Republic,99.6,121444,North America
+Ecuador,98.7,118845,South America
+El Salvador,98.3,34016,North America
+Equatorial Guinea,66.9,12117,Africa
+Eritrea,54.4,2275,Africa
+Estonia,100.0,41291,Europe
+Eswatini,86.4,4574,Africa
+Ethiopia,55.4,159746,Africa
+Fiji,99.3,5442,Oceania
+Finland,100.0,295532,Europe
+France,100.0,3051832,Europe
+French Polynesia,100.0,6398,Oceania
+Gabon,94.1,20056,Africa
+Georgia,100.0,30536,Europe
+Germany,100.0,4525704,Europe
+Ghana,89.5,76370,Africa
+Greece,100.0,243498,Europe
+Greenland,100.0,3041,North America
+Grenada,94.4,1317,North America
+Guatemala,100.0,104451,North America
+Guinea,51.1,23006,Africa
+Guinea-Bissau,40.5,1841,Africa
+Guyana,98.9,16683,South America
+Haiti,51.3,19841,North America
+Honduras,95.6,34401,North America
+Hungary,100.0,212657,Europe
+Iceland,100.0,31325,Europe
+India,99.5,3575778,Asia
+Indonesia,99.4,1371171,Asia
+Iraq,100.0,232107,Asia
+Ireland,100.0,551395,Europe
+Israel,100.0,513611,Asia
+Italy,100.0,2300941,Europe
+Jamaica,97.7,19423,North America
+Japan,100.0,4204495,Asia
+Jordan,100.0,50814,Asia
+Kazakhstan,100.0,264293,Asia
+Kenya,76.2,108039,Africa
+Kiribati,95.9,289,Oceania
+Kuwait,100.0,163705,Asia
+Latvia,100.0,42248,Europe
+Lebanon,100.0,27464,Asia
+Lesotho,57.3,2118,Africa
+Liberia,32.5,5039,Africa
+Libya,73.2,44030,Africa
+Liechtenstein,100.0,7965,Europe
+Lithuania,100.0,79790,Europe
+Luxembourg,100.0,85755,Europe
+Madagascar,39.4,15870,Africa
+Malawi,15.6,12627,Africa
+Malaysia,100.0,399649,Asia
+Maldives,100.0,6591,Asia
+Mali,54.5,20662,Africa
+Malta,100.0,22212,Europe
+Marshall Islands,100.0,270,Oceania
+Mauritania,50.3,10652,Africa
+Mauritius,100.0,14397,Africa
+Mexico,99.7,1793799,North America
+Moldova,100.0,16542,Europe
+Monaco,100.0,9995,Europe
+Mongolia,100.0,19872,Asia
+Montenegro,100.0,7530,Europe
+Morocco,100.0,144438,Africa
+Mozambique,36.0,20954,Africa
+Myanmar,76.8,62084,Asia
+Namibia,56.7,12351,Africa
+Nauru,100.0,176,Oceania
+Nepal,94.0,40484,Asia
+Netherlands,100.0,1154361,Europe
+New Caledonia,100.0,10140,Oceania
+New Zealand,100.0,252176,Oceania
+Nicaragua,88.3,17829,North America
+Niger,20.1,16819,Africa
+Nigeria,61.2,187760,Africa
+North Macedonia,100.0,15764,Europe
+Norway,100.0,485311,Europe
+Oman,100.0,105896,Asia
+Pakistan,95.6,337900,Asia
+Palau,100.0,282,Oceania
+Panama,97.0,83382,North America
+Papua New Guinea,20.5,31020,Oceania
+Paraguay,99.8,42955,South America
+Peru,96.2,267603,South America
+Philippines,98.0,437146,Asia
+Poland,100.0,809201,Europe
+Portugal,100.0,289114,Europe
+Qatar,100.0,213003,Asia
+Romania,100.0,350776,Europe
+Rwanda,63.9,14097,Africa
+Samoa,100.0,1032,Oceania
+San Marino,100.0,1987,Europe
+Sao Tome and Principe,81.3,684,Africa
+Saudi Arabia,100.0,1067583,Asia
+Senegal,74.2,30408,Africa
+Serbia,100.0,75187,Europe
+Seychelles,100.0,2141,Africa
+Sierra Leone,35.5,6412,Africa
+Singapore,100.0,501428,Asia
+Slovenia,100.0,69148,Europe
+Solomon Islands,81.3,1633,Oceania
+South Africa,87.7,377782,Africa
+South Sudan,5.4,4629,Africa
+Spain,100.0,1620091,Europe
+Sri Lanka,100.0,84364,Asia
+St. Kitts and Nevis,100.0,1058,North America
+St. Vincent and the Grenadines,100.0,1091,North America
+Sudan,66.0,34021,Africa
+Suriname,99.6,3759,South America
+Sweden,100.0,584960,Europe
+Switzerland,100.0,894425,Europe
+Tajikistan,100.0,12061,Asia
+Tanzania,48.3,78353,Africa
+Thailand,100.0,514945,Asia
+Timor-Leste,100.0,2080,Asia
+Togo,59.2,9278,Africa
+Tonga,100.0,508,Oceania
+Trinidad and Tobago,98.7,25489,North America
+Tunisia,100.0,48541,Africa
+Turkmenistan,100.0,59887,Asia
+Turks and Caicos Islands,100.0,1402,North America
+Tuvalu,100.0,68,Oceania
+Uganda,51.5,51023,Africa
+Ukraine,100.0,178757,Europe
+United Arab Emirates,100.0,514130,Asia
+United Kingdom,100.0,3380855,Europe
+United States,100.0,27720700,North America
+Uruguay,100.0,77236,South America
+Uzbekistan,100.0,90889,Asia
+Vanuatu,61.6,1119,Oceania
+Viet Nam,99.8,429717,Asia
+World,91.6001373568565,100834796,
+Zambia,51.1,27578,Africa
+Zimbabwe,62.0,30368,Africa
