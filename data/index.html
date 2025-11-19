@@ -41,7 +41,7 @@ gera uma tabela com os dados do dados.csv
     </table>
 
     <script>
-        fetch('dados.csv')
+        fetch('./dados.csv')
             .then(response => response.text())
             .then(data => {
                 const lines = data.trim().split('\n');
