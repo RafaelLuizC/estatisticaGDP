@@ -3,55 +3,55 @@
     "country": "Afghanistan",
     "electricity_access": 85.3,
     "gdp": 16417,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Albania",
     "electricity_access": 100.0,
     "gdp": 22978,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Algeria",
     "electricity_access": 100.0,
     "gdp": 247626,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Andorra",
     "electricity_access": 100.0,
     "gdp": 3785,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Angola",
     "electricity_access": 51.1,
     "gdp": 90552,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Antigua and Barbuda",
     "electricity_access": 100.0,
     "gdp": 2033,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Argentina",
     "electricity_access": 100.0,
     "gdp": 646075,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "Armenia",
     "electricity_access": 100.0,
     "gdp": 24219,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Aruba",
     "electricity_access": 100.0,
     "gdp": 3649,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Australia",
@@ -63,271 +63,271 @@
     "country": "Austria",
     "electricity_access": 100.0,
     "gdp": 511685,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Azerbaijan",
     "electricity_access": 100.0,
     "gdp": 72356,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Bahrain",
     "electricity_access": 100.0,
     "gdp": 44662,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Bangladesh",
     "electricity_access": 99.5,
     "gdp": 422431,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Barbados",
     "electricity_access": 100.0,
     "gdp": 6721,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Belarus",
     "electricity_access": 100.0,
     "gdp": 71857,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Belgium",
     "electricity_access": 100.0,
     "gdp": 644783,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Belize",
     "electricity_access": 99.6,
     "gdp": 3079,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Benin",
     "electricity_access": 57.0,
     "gdp": 19673,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Bermuda",
     "electricity_access": 100.0,
     "gdp": 8142,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Bhutan",
     "electricity_access": 100.0,
     "gdp": 3019,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Bolivia",
     "electricity_access": 99.8,
     "gdp": 45135,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "Bosnia and Herzegovina",
     "electricity_access": 100.0,
     "gdp": 27515,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Botswana",
     "electricity_access": 76.0,
     "gdp": 19396,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Brazil",
     "electricity_access": 99.8,
     "gdp": 2191132,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "British Virgin Islands",
     "electricity_access": 100.0,
     "gdp": 1506,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Bulgaria",
     "electricity_access": 100.0,
     "gdp": 102397,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Burkina Faso",
     "electricity_access": 21.7,
     "gdp": 20325,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Burundi",
     "electricity_access": 11.6,
     "gdp": 3960,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Cambodia",
     "electricity_access": 95.0,
     "gdp": 42824,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Cameroon",
     "electricity_access": 72.0,
     "gdp": 49279,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Canada",
     "electricity_access": 100.0,
     "gdp": 2142471,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Cayman Islands",
     "electricity_access": 100.0,
     "gdp": 7127,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
-    "country": "Central African Republic",
+    "country": "Central Áfrican Republic",
     "electricity_access": 17.6,
     "gdp": 2555,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Chad",
     "electricity_access": 12.0,
     "gdp": 17643,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Chile",
     "electricity_access": 100.0,
     "gdp": 335533,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "China",
     "electricity_access": 100.0,
     "gdp": 17794782,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Colombia",
     "electricity_access": 98.7,
     "gdp": 363540,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "Comoros",
     "electricity_access": 89.8,
     "gdp": 1448,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Costa Rica",
     "electricity_access": 100.0,
     "gdp": 86498,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Croatia",
     "electricity_access": 100.0,
     "gdp": 84391,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Cuba",
     "electricity_access": 100.0,
     "gdp": 201986,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Curacao",
     "electricity_access": 100.0,
     "gdp": 3281,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Cyprus",
     "electricity_access": 100.0,
     "gdp": 33887,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Denmark",
     "electricity_access": 100.0,
     "gdp": 407092,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Djibouti",
     "electricity_access": 65.2,
     "gdp": 4000,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Dominica",
     "electricity_access": 100.0,
     "gdp": 651,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Dominican Republic",
     "electricity_access": 99.6,
     "gdp": 121444,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Ecuador",
     "electricity_access": 98.7,
     "gdp": 118845,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "El Salvador",
     "electricity_access": 98.3,
     "gdp": 34016,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Equatorial Guinea",
     "electricity_access": 66.9,
     "gdp": 12117,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Eritrea",
     "electricity_access": 54.4,
     "gdp": 2275,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Estonia",
     "electricity_access": 100.0,
     "gdp": 41291,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Eswatini",
     "electricity_access": 86.4,
     "gdp": 4574,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Ethiopia",
     "electricity_access": 55.4,
     "gdp": 159746,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Fiji",
@@ -339,13 +339,13 @@
     "country": "Finland",
     "electricity_access": 100.0,
     "gdp": 295532,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "France",
     "electricity_access": 100.0,
     "gdp": 3051832,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "French Polynesia",
@@ -357,157 +357,157 @@
     "country": "Gabon",
     "electricity_access": 94.1,
     "gdp": 20056,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Georgia",
     "electricity_access": 100.0,
     "gdp": 30536,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Germany",
     "electricity_access": 100.0,
     "gdp": 4525704,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Ghana",
     "electricity_access": 89.5,
     "gdp": 76370,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Greece",
     "electricity_access": 100.0,
     "gdp": 243498,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Greenland",
     "electricity_access": 100.0,
     "gdp": 3041,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Grenada",
     "electricity_access": 94.4,
     "gdp": 1317,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Guatemala",
     "electricity_access": 100.0,
     "gdp": 104451,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Guinea",
     "electricity_access": 51.1,
     "gdp": 23006,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Guinea-Bissau",
     "electricity_access": 40.5,
     "gdp": 1841,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Guyana",
     "electricity_access": 98.9,
     "gdp": 16683,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "Haiti",
     "electricity_access": 51.3,
     "gdp": 19841,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Honduras",
     "electricity_access": 95.6,
     "gdp": 34401,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Hungary",
     "electricity_access": 100.0,
     "gdp": 212657,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Iceland",
     "electricity_access": 100.0,
     "gdp": 31325,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "India",
     "electricity_access": 99.5,
     "gdp": 3575778,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Indonesia",
     "electricity_access": 99.4,
     "gdp": 1371171,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Iraq",
     "electricity_access": 100.0,
     "gdp": 232107,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Ireland",
     "electricity_access": 100.0,
     "gdp": 551395,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Israel",
     "electricity_access": 100.0,
     "gdp": 513611,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Italy",
     "electricity_access": 100.0,
     "gdp": 2300941,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Jamaica",
     "electricity_access": 97.7,
     "gdp": 19423,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Japan",
     "electricity_access": 100.0,
     "gdp": 4204495,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Jordan",
     "electricity_access": 100.0,
     "gdp": 50814,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Kazakhstan",
     "electricity_access": 100.0,
     "gdp": 264293,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Kenya",
     "electricity_access": 76.2,
     "gdp": 108039,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Kiribati",
@@ -519,91 +519,91 @@
     "country": "Kuwait",
     "electricity_access": 100.0,
     "gdp": 163705,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Latvia",
     "electricity_access": 100.0,
     "gdp": 42248,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Lebanon",
     "electricity_access": 100.0,
     "gdp": 27464,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Lesotho",
     "electricity_access": 57.3,
     "gdp": 2118,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Liberia",
     "electricity_access": 32.5,
     "gdp": 5039,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Libya",
     "electricity_access": 73.2,
     "gdp": 44030,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Liechtenstein",
     "electricity_access": 100.0,
     "gdp": 7965,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Lithuania",
     "electricity_access": 100.0,
     "gdp": 79790,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Luxembourg",
     "electricity_access": 100.0,
     "gdp": 85755,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Madagascar",
     "electricity_access": 39.4,
     "gdp": 15870,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Malawi",
     "electricity_access": 15.6,
     "gdp": 12627,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Malaysia",
     "electricity_access": 100.0,
     "gdp": 399649,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Maldives",
     "electricity_access": 100.0,
     "gdp": 6591,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Mali",
     "electricity_access": 54.5,
     "gdp": 20662,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Malta",
     "electricity_access": 100.0,
     "gdp": 22212,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Marshall Islands",
@@ -615,67 +615,67 @@
     "country": "Mauritania",
     "electricity_access": 50.3,
     "gdp": 10652,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Mauritius",
     "electricity_access": 100.0,
     "gdp": 14397,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Mexico",
     "electricity_access": 99.7,
     "gdp": 1793799,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Moldova",
     "electricity_access": 100.0,
     "gdp": 16542,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Monaco",
     "electricity_access": 100.0,
     "gdp": 9995,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Mongolia",
     "electricity_access": 100.0,
     "gdp": 19872,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Montenegro",
     "electricity_access": 100.0,
     "gdp": 7530,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Morocco",
     "electricity_access": 100.0,
     "gdp": 144438,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Mozambique",
     "electricity_access": 36.0,
     "gdp": 20954,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Myanmar",
     "electricity_access": 76.8,
     "gdp": 62084,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Namibia",
     "electricity_access": 56.7,
     "gdp": 12351,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Nauru",
@@ -687,13 +687,13 @@
     "country": "Nepal",
     "electricity_access": 94.0,
     "gdp": 40484,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Netherlands",
     "electricity_access": 100.0,
     "gdp": 1154361,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "New Caledonia",
@@ -711,43 +711,43 @@
     "country": "Nicaragua",
     "electricity_access": 88.3,
     "gdp": 17829,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Niger",
     "electricity_access": 20.1,
     "gdp": 16819,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Nigeria",
     "electricity_access": 61.2,
     "gdp": 187760,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "North Macedonia",
     "electricity_access": 100.0,
     "gdp": 15764,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Norway",
     "electricity_access": 100.0,
     "gdp": 485311,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Oman",
     "electricity_access": 100.0,
     "gdp": 105896,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Pakistan",
     "electricity_access": 95.6,
     "gdp": 337900,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Palau",
@@ -759,7 +759,7 @@
     "country": "Panama",
     "electricity_access": 97.0,
     "gdp": 83382,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Papua New Guinea",
@@ -771,49 +771,49 @@
     "country": "Paraguay",
     "electricity_access": 99.8,
     "gdp": 42955,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "Peru",
     "electricity_access": 96.2,
     "gdp": 267603,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "Philippines",
     "electricity_access": 98.0,
     "gdp": 437146,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Poland",
     "electricity_access": 100.0,
     "gdp": 809201,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Portugal",
     "electricity_access": 100.0,
     "gdp": 289114,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Qatar",
     "electricity_access": 100.0,
     "gdp": 213003,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Romania",
     "electricity_access": 100.0,
     "gdp": 350776,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Rwanda",
     "electricity_access": 63.9,
     "gdp": 14097,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Samoa",
@@ -825,55 +825,55 @@
     "country": "San Marino",
     "electricity_access": 100.0,
     "gdp": 1987,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Sao Tome and Principe",
     "electricity_access": 81.3,
     "gdp": 684,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Saudi Arabia",
     "electricity_access": 100.0,
     "gdp": 1067583,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Senegal",
     "electricity_access": 74.2,
     "gdp": 30408,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Serbia",
     "electricity_access": 100.0,
     "gdp": 75187,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Seychelles",
     "electricity_access": 100.0,
     "gdp": 2141,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Sierra Leone",
     "electricity_access": 35.5,
     "gdp": 6412,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Singapore",
     "electricity_access": 100.0,
     "gdp": 501428,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Slovenia",
     "electricity_access": 100.0,
     "gdp": 69148,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Solomon Islands",
@@ -882,94 +882,94 @@
     "continent": "Oceania"
   },
   {
-    "country": "South Africa",
+    "country": "South África",
     "electricity_access": 87.7,
     "gdp": 377782,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "South Sudan",
     "electricity_access": 5.4,
     "gdp": 4629,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Spain",
     "electricity_access": 100.0,
     "gdp": 1620091,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Sri Lanka",
     "electricity_access": 100.0,
     "gdp": 84364,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "St. Kitts and Nevis",
     "electricity_access": 100.0,
     "gdp": 1058,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "St. Vincent and the Grenadines",
     "electricity_access": 100.0,
     "gdp": 1091,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Sudan",
     "electricity_access": 66.0,
     "gdp": 34021,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Suriname",
     "electricity_access": 99.6,
     "gdp": 3759,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "Sweden",
     "electricity_access": 100.0,
     "gdp": 584960,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Switzerland",
     "electricity_access": 100.0,
     "gdp": 894425,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "Tajikistan",
     "electricity_access": 100.0,
     "gdp": 12061,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Tanzania",
     "electricity_access": 48.3,
     "gdp": 78353,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Thailand",
     "electricity_access": 100.0,
     "gdp": 514945,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Timor-Leste",
     "electricity_access": 100.0,
     "gdp": 2080,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Togo",
     "electricity_access": 59.2,
     "gdp": 9278,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Tonga",
@@ -981,25 +981,25 @@
     "country": "Trinidad and Tobago",
     "electricity_access": 98.7,
     "gdp": 25489,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Tunisia",
     "electricity_access": 100.0,
     "gdp": 48541,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Turkmenistan",
     "electricity_access": 100.0,
     "gdp": 59887,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Turks and Caicos Islands",
     "electricity_access": 100.0,
     "gdp": 1402,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Tuvalu",
@@ -1011,43 +1011,43 @@
     "country": "Uganda",
     "electricity_access": 51.5,
     "gdp": 51023,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Ukraine",
     "electricity_access": 100.0,
     "gdp": 178757,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "United Arab Emirates",
     "electricity_access": 100.0,
     "gdp": 514130,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "United Kingdom",
     "electricity_access": 100.0,
     "gdp": 3380855,
-    "continent": "Europe"
+    "continent": "Europa"
   },
   {
     "country": "United States",
     "electricity_access": 100.0,
     "gdp": 27720700,
-    "continent": "North America"
+    "continent": "América do Norte"
   },
   {
     "country": "Uruguay",
     "electricity_access": 100.0,
     "gdp": 77236,
-    "continent": "South America"
+    "continent": "América do Sul"
   },
   {
     "country": "Uzbekistan",
     "electricity_access": 100.0,
     "gdp": 90889,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Vanuatu",
@@ -1059,18 +1059,18 @@
     "country": "Viet Nam",
     "electricity_access": 99.8,
     "gdp": 429717,
-    "continent": "Asia"
+    "continent": "Ásia"
   },
   {
     "country": "Zambia",
     "electricity_access": 51.1,
     "gdp": 27578,
-    "continent": "Africa"
+    "continent": "África"
   },
   {
     "country": "Zimbabwe",
     "electricity_access": 62.0,
     "gdp": 30368,
-    "continent": "Africa"
+    "continent": "África"
   }
 ]
