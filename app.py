@@ -8,29 +8,43 @@ data_path = abrir_arquivo("data/dadosenergiaPIB.json") # Caminho para o arquivo 
 
 # Função para ordenar os dados por eletricidade, tratando None como maior valor.
 def ordenar_valores(e):
-    v = e.get("electricity")
+    # suporta chaves antigas e novas
+    v = e.get("electricity") if "electricity" in e else e.get("electricity_access")
     return (v is None, -(v or 0))
 
 def processa_dados():
 
     with open(data_path, "r", encoding="utf-8") as f:
         raw = json.load(f)
-
     grouped = {} # Dicionario para agrupar os dados por continente.
 
     for item in raw:
         country = item.get("country")
-        # Pega os valores de eletricidade e PIB.
-        records = item.get("records") or []
-        electricity = None
-        if records:
-            first = records[0]
-            electricity = first.get("value")
 
-        pib_info = item.get("pib") or {}
-        pib_value = pib_info.get("records")
-        continent = pib_info.get("continent") or "Dados Globais" # Se não tiver continente, marca como Unknown.
-        # É possivel não ter pais? Da para fazer isso sendo os dados "gerais"
+        # suporta o novo formato: {electricity_access, gdp, continent}
+        # e também o formato antigo com 'records' e 'pib'
+        electricity = None
+        if 'electricity_access' in item:
+            electricity = item.get('electricity_access')
+        elif 'electricity' in item:
+            electricity = item.get('electricity')
+        else:
+            # formato antigo: extrai do primeiro record
+            records = item.get("records") or []
+            if records:
+                first = records[0]
+                if isinstance(first, dict):
+                    electricity = first.get("value")
+
+        # PIB / GDP
+        if 'gdp' in item:
+            pib_value = item.get('gdp')
+        else:
+            pib_info = item.get('pib') or {}
+            pib_value = pib_info.get('records')
+
+        # continente (novo formato tem em item['continent'], antigo em item['pib']['continent'])
+        continent = item.get('continent') or (item.get('pib') or {}).get('continent') or "Dados Globais"
 
         entry = {
             "country": country,

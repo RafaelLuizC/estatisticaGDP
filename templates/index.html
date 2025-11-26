@@ -8,31 +8,109 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-<div class="container py-4">
-    <header class="d-flex align-items-center mb-4">
-        <h1 class="me-auto">Energia elétrica por país — 2023</h1>
+    <header class="mb-4">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <img src="" alt="">
+            <p>Bacharelado em Sistemas de Informação</p>
+            <h1>Trabalho de Estatística e Probabilidade</h1>
+            <p>Este trabalho apresenta uma análise estatística da relação entre o acesso à energia elétrica e o PIB dos países em 2023.</p>
+        </div>
     </header>
-
-    <div class="controls mb-3 row g-2">
-        <div class="col-sm-6 col-md-4">
-            <label for="continentSelect" class="form-label">Continente</label>
-            <select id="continentSelect" class="form-select"></select>
-        </div>
-        <div class="col-sm-6 col-md-4 align-self-end">
-            <button id="resetBtn" class="btn btn-outline-secondary">Redefinir</button>
-        </div>
-    </div>
+<div class="container py-4">
 
     <div class="card mb-4">
         <div class="card-body">
+            <h3 class="mb-3">Energia elétrica por país - 2023</h3>
+            <div class="controls mb-5 row g-2">
+                <div class="col-sm-6 col-md-4">
+                    <label for="continentSelect" class="form-label">Selecione o continente:</label>
+                    <select id="continentSelect" class="form-select"></select>
+                </div>
+                <div class="col-auto align-self-end">
+                    <button id="resetBtn" class="btn btn-outline-secondary">Visualizar</button>
+                </div>
+            </div>
             <canvas id="energyChart" height="120"></canvas>
+            <p id="info" class="text-align-center mt-3 mb-0 small">Selecione um continente para filtrar. Passe o mouse sobre as barras para ver o PIB.</p>
         </div>
     </div>
 
-    <div id="info" class="text-muted small">Selecione um continente para filtrar. Passe o mouse sobre as barras para ver o PIB.</div>
+    <div class="row gy-4">
 
-    <footer class="mt-4 text-end text-muted small">arquivos em `data/dadosenergiaPIB.json`</footer>
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Média de acesso à eletricidade por continente</h3>
+                    <canvas id="chart_avg_elec" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Maior e menor acesso por continente (países)</h3>
+                    <canvas id="chart_minmax" height="160"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Total de países por continente</h3>
+                    <canvas id="chart_total" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Média de PIB por continente</h3>
+                    <div class="btn-group btn-group-sm mb-2 view-toggle" role="group" aria-label="view toggle avggdp">
+                        <button id="avggdp_btn_bar" type="button" class="btn btn-outline-secondary">Barras</button>
+                        <button id="avggdp_btn_pie" type="button" class="btn btn-outline-secondary">Pizza</button>
+                    </div>
+                    <canvas id="chart_avg_gdp" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3>% países com acesso &gt; 90% por continente</h3>
+                    <div class="btn-group btn-group-sm mb-2 view-toggle" role="group" aria-label="view toggle above90">
+                        <button id="above90_btn_bar" type="button" class="btn btn-outline-secondary">Barras</button>
+                        <button id="above90_btn_pie" type="button" class="btn btn-outline-secondary">Pizza</button>
+                    </div>
+                    <canvas id="chart_above90" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3>Relação Acesso × PIB por país</h3>
+                    <canvas id="chart_scatter" height="160"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+    <footer class="mt-4 small">
+        <div class="container">
+                <h2>Alunos:</h2>
+                <ul class="students list-unstyled">
+                    <li>Rafael Luiz</li>
+                    <li>Paulo Kuss</li>
+                    <li>Outros</li>
+                </ul>
+                <p mb-0>Fontes dos arquivos em: `data/dadosenergiaPIB.json`</p>
+        </div>
+        </footer>
 
 <!-- injeta os dados processados pelo Flask -->
 <script>
@@ -40,7 +118,8 @@
 </script>
 
 <!-- Busca os dados para o gráfico, e renderiza. -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- Usar caminho específico evita requisição de source-map inválida pelo navegador -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="/static/app.js"></script>
 </body>
 </html>

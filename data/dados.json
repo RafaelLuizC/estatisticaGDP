@@ -33,7 +33,7 @@
     "country": "Antigua and Barbuda",
     "electricity_access": 100.0,
     "gdp": 2033,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Argentina",
@@ -51,7 +51,7 @@
     "country": "Aruba",
     "electricity_access": 100.0,
     "gdp": 3649,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Australia",
@@ -87,7 +87,7 @@
     "country": "Barbados",
     "electricity_access": 100.0,
     "gdp": 6721,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Belarus",
@@ -105,7 +105,7 @@
     "country": "Belize",
     "electricity_access": 99.6,
     "gdp": 3079,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Benin",
@@ -117,7 +117,7 @@
     "country": "Bermuda",
     "electricity_access": 100.0,
     "gdp": 8142,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Bhutan",
@@ -153,7 +153,7 @@
     "country": "British Virgin Islands",
     "electricity_access": 100.0,
     "gdp": 1506,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Bulgaria",
@@ -195,10 +195,10 @@
     "country": "Cayman Islands",
     "electricity_access": 100.0,
     "gdp": 7127,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
-    "country": "Central Áfrican Republic",
+    "country": "Central African Republic",
     "electricity_access": 17.6,
     "gdp": 2555,
     "continent": "África"
@@ -237,7 +237,7 @@
     "country": "Costa Rica",
     "electricity_access": 100.0,
     "gdp": 86498,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Croatia",
@@ -249,13 +249,13 @@
     "country": "Cuba",
     "electricity_access": 100.0,
     "gdp": 201986,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Curacao",
     "electricity_access": 100.0,
     "gdp": 3281,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Cyprus",
@@ -279,13 +279,13 @@
     "country": "Dominica",
     "electricity_access": 100.0,
     "gdp": 651,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Dominican Republic",
     "electricity_access": 99.6,
     "gdp": 121444,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Ecuador",
@@ -297,7 +297,7 @@
     "country": "El Salvador",
     "electricity_access": 98.3,
     "gdp": 34016,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Equatorial Guinea",
@@ -387,19 +387,19 @@
     "country": "Greenland",
     "electricity_access": 100.0,
     "gdp": 3041,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Grenada",
     "electricity_access": 94.4,
     "gdp": 1317,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Guatemala",
     "electricity_access": 100.0,
     "gdp": 104451,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Guinea",
@@ -423,13 +423,13 @@
     "country": "Haiti",
     "electricity_access": 51.3,
     "gdp": 19841,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Honduras",
     "electricity_access": 95.6,
     "gdp": 34401,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Hungary",
@@ -483,7 +483,7 @@
     "country": "Jamaica",
     "electricity_access": 97.7,
     "gdp": 19423,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Japan",
@@ -711,7 +711,7 @@
     "country": "Nicaragua",
     "electricity_access": 88.3,
     "gdp": 17829,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Niger",
@@ -759,7 +759,7 @@
     "country": "Panama",
     "electricity_access": 97.0,
     "gdp": 83382,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Papua New Guinea",
@@ -882,7 +882,7 @@
     "continent": "Oceania"
   },
   {
-    "country": "South África",
+    "country": "South Africa",
     "electricity_access": 87.7,
     "gdp": 377782,
     "continent": "África"
@@ -909,13 +909,13 @@
     "country": "St. Kitts and Nevis",
     "electricity_access": 100.0,
     "gdp": 1058,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "St. Vincent and the Grenadines",
     "electricity_access": 100.0,
     "gdp": 1091,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Sudan",
@@ -981,7 +981,7 @@
     "country": "Trinidad and Tobago",
     "electricity_access": 98.7,
     "gdp": 25489,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Tunisia",
@@ -999,7 +999,7 @@
     "country": "Turks and Caicos Islands",
     "electricity_access": 100.0,
     "gdp": 1402,
-    "continent": "América do Norte"
+    "continent": "América Central"
   },
   {
     "country": "Tuvalu",

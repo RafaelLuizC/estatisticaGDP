@@ -1,12 +1,21 @@
 import dotenv
-import os, nltk, re, json
+import os, nltk, re, json, csv
 import pandas as pd
 import xml.etree.ElementTree as ET
 
+
 dotenv.load_dotenv()
 
-def mergeJsons(json1_path, json2_path, threshold=0.7): # Função para fazer merge de dois JSONs com os dados de países.
+def create_csv_json(data):
+    with open('/workspaces/estatisticaGDP/data/dados.csv', 'w', newline='', encoding='utf-8') as csv_file:
+        if data:
+            fieldnames = data[0].keys()
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(data)
+            print("CSV file created successfully: ./dados.csv")
 
+def mergeJsons(json1_path, json2_path, threshold=0.7): # Função para fazer merge de dois JSONs com os dados de países.
     def load_json(path):
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -20,73 +29,60 @@ def mergeJsons(json1_path, json2_path, threshold=0.7): # Função para fazer mer
         return s
 
     def entries_from(obj):
-        # aceita lista de objetos {"country":..., "records":...} ou dict {country: records}
-        
-        if isinstance(obj, list): # Se for lista, retorna como está.
+        if isinstance(obj, list):
             return obj
-        
-        if isinstance(obj, dict): # Se for dicionário, converte para lista de objetos.
-            items = [] # inicia lista
+        if isinstance(obj, dict):
+            items = []
             for k, v in obj.items():
-                items.append({"country": k, "records": v}) # Adiciona o país e seus registros.
+                items.append({"country": k, "records": v})
             return items
         return []
 
-    # Eu sei que a, e b são nomes ruins
-    a = load_json(json1_path) if isinstance(json1_path, str) else json1_path # Carrega o JSON 1
-    b = load_json(json2_path) if isinstance(json2_path, str) else json2_path # Carrega o JSON 2 
+    a = load_json(json1_path) if isinstance(json1_path, str) else json1_path
+    b = load_json(json2_path) if isinstance(json2_path, str) else json2_path
 
-    
-    # A = Dados de Energia dos paises.
-    # B = Dados de PIB dos paises.
+    a_entries = entries_from(a)
+    b_entries = entries_from(b)
 
-    a_entries = entries_from(a) # Extrai os dados do JSON 1
-    b_entries = entries_from(b) # Extrai os dados do JSON 2
+    b_index = { normalize(item.get("country")): item for item in b_entries if item.get("country") }
 
-    # Se a comparação já for exata, usa índice para acelerar o processo, e não precisa calcular distância.
-    b_index = { normalize(item.get("country")): item for item in b_entries if item.get("country") } 
+    # mapa de continentes para Português
+    continent_map = {
+        'asia': 'Ásia', 'europe': 'Europa', 'africa': 'África',
+        'north america': 'América do Norte', 'south america': 'América do Sul',
+        'oceania': 'Oceania', 'antarctica': 'Antártica', 'central america': 'América Central'
+    }
 
-    merged = [] # Inicia a lista de resultados mesclados.
+    merged = []
 
-    # Aqui ele faz a busca percorrendo os países do JSON A (Energia)
     for a_item in a_entries:
         a_name = a_item.get("country")
+        norm_a = normalize(a_name)
+        a_name_short = a_name.split(",")[0] if isinstance(a_name, str) else a_name
+
         best = None
         best_score = -1.0
-        norm_a = normalize(a_name)
-        a_name = a_name.split(",")[0]
 
-        # Procura a correspondencia exata = valores 1.0 
         if norm_a in b_index:
             best = b_index[norm_a]
             best_score = 1.0
-        
-        # Se não encontrar, ele calcula a distancia entre os nomes.
         else:
             for b_item in b_entries:
                 b_name = b_item.get("country")
-                norm_b = normalize(b_name) # normaliza o nome do país B
+                norm_b = normalize(b_name)
                 if not norm_b:
                     continue
-                
-                # Similaridade entre as strings baseada em edit distance
                 dist = nltk.edit_distance(norm_a, norm_b)
                 maxlen = max(len(norm_a), len(norm_b), 1)
-                
-                # Calcula a distancia. - O Valor vai de 0-1, e o treshold padrão é de 0.85
-                # Da para reduzir esse valor no argumento da função.
-                sim = 1.0 - (dist / maxlen) 
+                sim = 1.0 - (dist / maxlen)
                 if sim > best_score:
                     best_score = sim
                     best = b_item
 
-            # Faz uma segunda busca, caso não tenha encontrado nada acima do treshold.
             if best_score < threshold:
                 tokens_a = set(norm_a.split())
                 best_tok = None
                 best_j = 0.0
-
-                # Busca por similaridade de Jaccard, outro metodo que tem na NLTK.
                 for b_item in b_entries:
                     tokens_b = set(normalize(b_item.get("country","")).split())
                     if not tokens_a or not tokens_b:
@@ -95,26 +91,43 @@ def mergeJsons(json1_path, json2_path, threshold=0.7): # Função para fazer mer
                     if j > best_j:
                         best_j = j
                         best_tok = b_item
-                
                 if best_j > 0.6 and best_j > best_score:
-                    # Se encontrou algo bom o suficiente.
                     best = best_tok
                     best_score = best_j
 
-        merged_item = dict(a_item)  # Captura os dados do país A (Energia)
-        
-        if best and best_score >= threshold: # Se encontrou um país B (PIB) correspondente acima do treshold
-            # Adiciona os dados do PIB, estou consumindo os valores de 2023.
-            merged_item["pib"] = {"country": best.get("country"), "records": best.get("un_2023"), "continent":  best.get("continent")}
-        else:
-            # Se não encontrou, deixa o PIB como None.
-            merged_item["pib"] = None
+        # Extrai o valor de acesso à eletricidade (ano 2023) do registro de energia
+        elec_val = None
+        for rec in a_item.get("records", []) or []:
+            if isinstance(rec, dict) and rec.get("year") == 2023:
+                elec_val = rec.get("value")
+                break
+        if elec_val is None:
+            # fallback: usa o primeiro registro disponível
+            if a_item.get("records"):
+                first = (a_item.get("records")[0])
+                if isinstance(first, dict):
+                    elec_val = first.get("value")
 
-        if merged_item["pib"] == None:
-            print(f"Nenhum país correspondente encontrado para '{a_name}' (melhor score: {best_score:.3f})")
+        if best and best_score >= threshold:
+            gdp_val = best.get("un_2023")
+            cont = best.get("continent")
+            cont_trans = None
+            if isinstance(cont, str):
+                cont_trans = continent_map.get(cont.strip().lower(), cont)
+        else:
+            gdp_val = None
+            cont_trans = None
+
+        if gdp_val is None or elec_val is None:
+            print(f"Nenhum país correspondente encontrado para '{a_name_short}' (melhor score: {best_score:.3f})")
             continue
-        
-        merged.append(merged_item)
+
+        merged.append({
+            "country": a_name_short,
+            "electricity_access": elec_val,
+            "gdp": gdp_val,
+            "continent": cont_trans
+        })
 
     return merged
 
@@ -241,7 +254,7 @@ def main():
         return
 
     merged = mergeJsons(saida, pib_path, threshold=0.85)
-    saida_merge = "data/dadosenergiaPIB.json"
+    saida_merge = "data/dados.json"
     salvaJson(merged, saida_merge)
 
     print("Merge gerado em:", saida_merge)
