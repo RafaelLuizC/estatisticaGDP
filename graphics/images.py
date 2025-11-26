@@ -27,63 +27,79 @@ import pandas as pd
 import matplotlib.ticker as mticker
 
 # Load data from JSON file
-with open('/workspaces/estatisticaGDP/data/dados.json', 'r', encoding='utf-8') as json_file:
+json_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'dados.json')
+with open(json_path, 'r', encoding='utf-8') as json_file:
     data = json.load(json_file)
 # Convert data to DataFrame
 df = pd.DataFrame(data)
 # Create output directory if it doesn't exist
-output_dir = '/workspaces/estatisticaGDP/graphics/'
+output_dir = os.path.join(os.path.dirname(__file__))
 os.makedirs(output_dir, exist_ok=True)
 # 1. Pie chart: % of countries by continent
 continent_counts = df['continent'].value_counts()
-plt.figure(figsize=(8, 8))
-plt.pie(continent_counts, labels=continent_counts.index, autopct='%1.1f%%', startangle=140)
-plt.title('Porcentagem de Países por Continente')
+plt.figure(figsize=(16, 16))
+plt.pie(continent_counts, labels=continent_counts.index, autopct='%1.1f%%', startangle=140, textprops={'fontsize': 24})
+plt.title('Porcentagem de Países por Continente', fontsize=30)
 plt.savefig(os.path.join(output_dir, 'paises_por_continente.png'))
 plt.close()
 # 2. Bar chart: Average electricity access by continent
 avg_electricity_access = df.groupby('continent')['electricity_access'].mean()
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(20, 12))
 avg_electricity_access.plot(kind='bar', color='skyblue')
-plt.title('Média do Acesso à Eletricidade por Continente')
-plt.xlabel('Continente')
-plt.ylabel('Média do Acesso à Eletricidade (%)')
-plt.xticks(rotation=0)
+plt.title('Média do Acesso à Eletricidade por Continente', fontsize=30)
+plt.xlabel('Continente', fontsize=24)
+plt.ylabel('Média do Acesso à Eletricidade (%)', fontsize=24)
+plt.xticks(rotation=0, fontsize=20)
+plt.yticks(fontsize=20)
 plt.savefig(os.path.join(output_dir, 'media_acesso_eletricidade_por_continente.png'))
 plt.close()
 # 3. Bar chart: Average PIB by continent
-avg_gdp = df.groupby('continent')['gdp'].mean()
-plt.figure(figsize=(10, 6))
+avg_gdp = df.groupby('continent')['gdp'].mean() * 1_000_000
+plt.figure(figsize=(20, 12))
 avg_gdp.plot(kind='bar', color='salmon')
-plt.title('Média do PIB por Continente')
-plt.xlabel('Continente')
-plt.ylabel('Média do PIB')
-plt.xticks(rotation=0)
+plt.title('Média do PIB por Continente', fontsize=30)
+plt.xlabel('Continente', fontsize=24)
+plt.ylabel('Média do PIB', fontsize=24)
+plt.xticks(rotation=0, fontsize=20)
+plt.yticks(fontsize=20)
 
 ax = plt.gca()
-ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda x, pos: f'${int(round(x)):,}'))
+def gdp_formatter(x, pos):
+  if x >= 1e12:
+    return f'${x/1e12:.1f}T'
+  elif x >= 1e9:
+    return f'${x/1e9:.1f}B'
+  elif x >= 1e6:
+    return f'${x/1e6:.1f}M'
+  else:
+    return f'${int(round(x)):,}'
+ax.yaxis.set_major_formatter(mticker.FuncFormatter(gdp_formatter))
 
 plt.savefig(os.path.join(output_dir, 'media_gdp_por_continente.png'))
 plt.close()
 # 4. Scatter plot: Relationship between electricity access and PIB by country
-plt.figure(figsize=(10, 6))
-plt.scatter(df['gdp'], df['electricity_access'], alpha=0.7, color='purple')
-plt.title('Relação entre Acesso à Eletricidade e PIB por País')
-plt.xlabel('PIB')
-plt.ylabel('Electricity Access (%)')
+plt.figure(figsize=(20, 12))
+gdp_million = df['gdp'] * 1_000_000
+plt.scatter(gdp_million, df['electricity_access'], alpha=0.7, color='purple')
+plt.title('Relação entre Acesso à Eletricidade e PIB por País', fontsize=30)
+plt.xlabel('PIB', fontsize=24)
+plt.ylabel('Electricity Access (%)', fontsize=24)
+plt.xticks(fontsize=20)
+plt.yticks(fontsize=20)
 plt.xscale('log')
 
 ax = plt.gca()
 ax.xaxis.set_major_locator(mticker.LogLocator(base=10.0, numticks=12, subs=(1,)))
-def fmt(x, pos):
-    try:
-        if x >= 1:
-            return f'${int(round(x)):,}'
-        else:
-            return f'${x:.2f}'
-    except Exception:
-        return str(x)
-ax.xaxis.set_major_formatter(mticker.FuncFormatter(fmt))
+def gdp_formatter(x, pos):
+  if x >= 1e12:
+    return f'${x/1e12:.1f}T'
+  elif x >= 1e9:
+    return f'${x/1e9:.1f}B'
+  elif x >= 1e6:
+    return f'${x/1e6:.1f}M'
+  else:
+    return f'${int(round(x)):,}'
+ax.xaxis.set_major_formatter(mticker.FuncFormatter(gdp_formatter))
 
 plt.grid(True, which="both", ls="--", linewidth=0.5)
 plt.savefig(os.path.join(output_dir, 'relacao_acesso_eletricidade_pib.png'))
@@ -93,21 +109,22 @@ above_90 = df[df['electricity_access'] > 90].shape[0]
 below_90 = df[df['electricity_access'] <= 90].shape[0]
 labels = ['Acima de 90%', 'Abaixo ou igual a 90%']
 sizes = [above_90, below_90]
-plt.figure(figsize=(8, 8))
-plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, colors=['lightgreen', 'lightcoral'])
-plt.title('Porcentagem de Países com Acesso à Eletricidade Acima e Abaixo de 90%')
+plt.figure(figsize=(16, 16))
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, colors=['lightgreen', 'lightcoral'], textprops={'fontsize': 24})
+plt.title('Porcentagem de Países com Acesso\nà Eletricidade Acima e Abaixo de 90%', fontsize=30)
 plt.savefig(os.path.join(output_dir, 'acesso_eletricidade_acima_abaixo_90.png'))
 plt.close()
 # 6. Bar chart: Max and Min electricity access by continent
 max_access = df.groupby('continent')['electricity_access'].max()
 min_access = df.groupby('continent')['electricity_access'].min()
 access_df = pd.DataFrame({'Maior Acesso (%)': max_access, 'Menor Acesso (%)': min_access})
-access_df.plot(kind='bar', figsize=(10, 6))
-plt.title('Maior e Menor Acesso à Eletricidade por Continente')
-plt.xlabel('Continente')
-plt.ylabel('Acesso à Eletricidade (%)')
-plt.xticks(rotation=0)
-plt.legend(loc='lower right')
+access_df.plot(kind='bar', figsize=(20, 12))
+plt.title('Maior e Menor Acesso à Eletricidade por Continente', fontsize=30)
+plt.xlabel('Continente', fontsize=24)
+plt.ylabel('Acesso à Eletricidade (%)', fontsize=24)
+plt.xticks(rotation=0, fontsize=20)
+plt.yticks(fontsize=20)
+plt.legend(loc='lower right', fontsize=16)
 plt.savefig(os.path.join(output_dir, 'maior_menor_acesso_eletricidade_por_continente.png'))
 plt.close()
 
