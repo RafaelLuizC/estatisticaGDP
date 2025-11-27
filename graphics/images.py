@@ -265,7 +265,7 @@ for patch, label in zip(box_access.patches, categories):
     patch.set_alpha(0.7)
 
 handles = [mpatches.Patch(facecolor=color_map[c], edgecolor='black', label=c, alpha=0.7) for c in sorted_continents]
-plt.legend(handles=handles, title='Continente', fontsize=14, title_fontsize=16, loc='upper right')
+plt.legend(handles=handles, title='Continente', fontsize=14, title_fontsize=16, loc='lower right')
 
 plt.title('Distribuição do Acesso à Eletricidade por Continente', fontsize=30)
 plt.suptitle('')
