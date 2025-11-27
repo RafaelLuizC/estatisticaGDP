@@ -1,0 +1,119 @@
+============================================================
+RELATÓRIO DE DADOS DOS GRÁFICOS (EM PORTUGUÊS)
+============================================================
+
+
+----------------------------------------
+1. Distribuição de Países por Continente
+----------------------------------------
+                  Total Países  Porcentagem (%)
+continent                                      
+África                      47        26.256983
+Europa                      42        23.463687
+Ásia                        36        20.111732
+América Central             25        13.966480
+Oceania                     15         8.379888
+América do Sul              11         6.145251
+América do Norte             3         1.675978
+
+
+----------------------------------------
+2. Média de Acesso à Eletricidade por Continente
+----------------------------------------
+continent
+Europa             100.00%
+América do Norte    99.90%
+América do Sul      99.23%
+Ásia                98.41%
+América Central     96.82%
+Oceania             90.57%
+África              58.97%
+
+
+----------------------------------------
+3. Média do PIB por Continente (Formatado)
+----------------------------------------
+continent
+América do Norte     10.6T
+Ásia                936.8B
+Europa              556.6B
+América do Sul      373.5B
+Oceania             139.1B
+África               44.8B
+América Central      31.7B
+(Legenda: T = Trilhões, B = Bilhões, M = Milhões de US$)
+
+
+----------------------------------------
+4. Correlação entre PIB e Acesso à Eletricidade
+----------------------------------------
+Nota: A correlação varia de -1 a 1.
+      1 = Crescem juntos perfeitamente.
+      0 = Não tem relação nenhuma.
+    NaN = Dados constantes (sem variação para calcular).
+
+Correlação Geral (Pearson): 0.1096
+
+Correlação por Continente:
+continent
+América Central                    0.0636
+América do Norte                   0.5101
+América do Sul                     0.1473
+Europa              Constante (100% fixo)
+Oceania                            0.1211
+África                             0.3438
+Ásia                               0.0940
+
+
+----------------------------------------
+5. Países com Acesso à Eletricidade > 90%
+----------------------------------------
+Acima de 90%: 131 países (73.2%)
+Abaixo ou igual a 90%: 48 países (26.8%)
+
+
+----------------------------------------
+6. Amplitude de Acesso à Eletricidade (Max/Min)
+----------------------------------------
+                  Máximo  Mínimo  Amplitude
+continent                                  
+América Central  100.00%  51.30%     48.70%
+América do Norte 100.00%  99.70%      0.30%
+América do Sul   100.00%  96.20%      3.80%
+Europa           100.00% 100.00%      0.00%
+Oceania          100.00%  20.50%     79.50%
+África           100.00%   5.40%     94.60%
+Ásia             100.00%  76.80%     23.20%
+
+
+----------------------------------------
+7. Estatísticas Descritivas do PIB por Continente
+----------------------------------------
+                   Média Mediana  Mínimo  Máximo Amplitude Desvio Padrão
+continent                                                               
+América Central    31.7B    7.1B  651.0M  202.0B    201.3B         50.0B
+América do Norte   10.6T    2.1T    1.8T   27.7T     25.9T         14.9T
+América do Sul    373.5B  118.8B    3.8B    2.2T      2.2T        634.4B
+Europa            556.6B   94.1B    2.0B    4.5T      4.5T          1.0T
+Oceania           139.1B    1.1B   68.0M    1.8T      1.8T        457.3B
+África             44.8B   19.4B  684.0M  377.8B    377.1B         72.4B
+Ásia              936.8B  134.8B    2.1B   17.8T     17.8T          3.0T
+(Legenda: T = Trilhões, B = Bilhões, M = Milhões de US$)
+
+
+----------------------------------------
+8. Estatísticas Descritivas de Acesso à Eletricidade
+----------------------------------------
+                  Média  Mediana  Mínimo  Máximo  Desvio Padrão
+continent                                                      
+América Central   96.82   100.00   51.30  100.00           9.84
+América do Norte  99.90   100.00   99.70  100.00           0.17
+América do Sul    99.23    99.80   96.20  100.00           1.13
+Europa           100.00   100.00  100.00  100.00           0.00
+Oceania           90.57   100.00   20.50  100.00          22.09
+África            58.97    57.30    5.40  100.00          26.29
+Ásia              98.41   100.00   76.80  100.00           4.63
+(Valores em %)
+
+
+============================================================
